@@ -89,6 +89,16 @@
 
 ---
 
+## 2026-06-11 — README.md added
+
+**Reason:** Repo now synced to GitHub (github.com/gmei6/QUANT_TRACKER); README provides the entry-point overview and a Mermaid data-flow diagram (renders natively on GitHub). Documentation only — no protocol or structural changes. SYSTEM.md remains the operating manual.
+
+**Files affected:** Created `README.md`.
+
+**Reversibility:** Delete the file.
+
+---
+
 ## Appendix A — v1 STUDY_MASTER.md content (preserved verbatim)
 
 # Quantitative Study Master Hub
