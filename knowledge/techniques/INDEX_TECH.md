@@ -1,0 +1,19 @@
+# INDEX_TECH — Proof Techniques
+
+> Cross-cutting proof techniques (`T-` IDs). A concept is not mastered at 4+ unless its proof technique can be deployed from scratch. Techniques enter the review queue like concepts.
+>
+> **ID reservations (v2.3):** T-001…T-011 are pre-registered below so concept files can link to them from session 1. Files are still created lazily — at the first *real* encounter with the technique (per v2.1 lazy-creation rule). A reserved row has no file, no mastery, and makes no knowledge claims. Next new ID = 012.
+
+| ID | Technique | File | Mastery | Used in (C-IDs) |
+|---|---|---|---|---|
+| T-001 | Induction (weak/strong/structural) | — (reserved; created at first encounter) | — | |
+| T-002 | Proof by contradiction | — (reserved) | — | |
+| T-003 | Epsilon-delta arguments | — (reserved) | — | |
+| T-004 | Pigeonhole principle | — (reserved) | — | |
+| T-005 | Probabilistic method | — (reserved) | — | |
+| T-006 | Coupling | — (reserved) | — | |
+| T-007 | Martingale arguments (incl. optional stopping) | — (reserved) | — | |
+| T-008 | Generating functions | — (reserved) | — | |
+| T-009 | Diagonalization | — (reserved) | — | |
+| T-010 | Exchange / greedy arguments | — (reserved) | — | |
+| T-011 | Invariants & monovariants | — (reserved) | — | |
