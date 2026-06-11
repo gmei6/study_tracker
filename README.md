@@ -1,4 +1,4 @@
-# QUANT_TRACKER
+# study_tracker
 
 A two-layer knowledge system for quant prep — targeting **Quantitative Research roles, MFE, and Quant PhD admissions, December 2027**.
 
@@ -33,6 +33,8 @@ flowchart TB
 | `research/` | `READING_LOG.md` (P-IDs), `IDEAS.md` (R-IDs), `CONTACTS.md` (dated next actions — letters pillar) |
 
 ## Usage
+
+Exact prompts and commands: **[USAGE.md](USAGE.md)**. The short version:
 
 **After studying:** append raw notes (duration, source, tags `[STRUGGLE]` `[INSIGHT]` `[NEEDS_RECALL]` `[INTERVIEW]`) and run Full Ingest per `SYSTEM.md`. Commit: `git commit -m "S-YYYY-MM-DD-n: topic"` and push.
 
