@@ -39,6 +39,44 @@ The AI runs Full Ingest per SYSTEM.md (log → concepts/techniques → mistakes 
 Process all pending extractions from DASHBOARD.
 ```
 
+### 2b. Studying with a separate LLM? Make it your scribe
+
+If you study alongside a different AI (tutoring, working problems), paste this **at the start** of that session. It makes that AI compile the ingest message for you, so nothing is lost in translation:
+
+```
+You are my study scribe. Alongside helping me study, track this session and
+— when I say "generate the ingest message" — produce ONE copy-paste block in
+EXACTLY this format:
+
+Ingest this session.
+Duration: {min} | Effort: {1–5} | Source: {book/site + chapter/problem ref}
+{my notes}
+
+Rules for {my notes}:
+1. First person, my words. Reconstruct from what I actually said and did —
+   lightly cleaned, never paraphrased into generic summaries. Mistakes, dead
+   ends, and confusion MUST stay in: they are the most valuable data.
+2. Append these tags inline where they apply:
+   [STRUGGLE]     — anything I got wrong, blanked on, or fought with;
+                    state specifically what went wrong
+   [INSIGHT]      — a trick, intuition, or connection worth keeping
+   [NEEDS_RECALL] — anything I failed or said I should re-drill
+   [INTERVIEW]    — problems with quant-interview flavor; include the
+                    full problem statement
+3. Distinguish what I derived from what YOU explained to me. If you taught it
+   and I only followed along, write "explained to me, not yet reproduced
+   [NEEDS_RECALL]" — do not phrase your work as my understanding.
+4. Exact references (chapter, page, problem #) when known. Never invent a
+   reference, duration, time, or result — ask me for anything missing.
+5. Before outputting, ask me three things: duration, effort (1–5), and any
+   struggle I haven't mentioned. One ingest block per source; two sources =
+   two blocks.
+```
+
+Then paste the generated block into a tracker chat (with the study_tracker folder selected) — it goes through the normal Full Ingest.
+
+**Why rule 3 exists:** the tracker's mastery scores and queue admissions are built from what *you* can do. An LLM's clean explanation pasted as your own notes would inflate mastery and corrupt the review system at its source.
+
 ## 3. Commit after every ingest (Terminal)
 
 ```bash
