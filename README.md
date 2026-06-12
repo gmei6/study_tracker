@@ -25,7 +25,7 @@ flowchart TB
 | `SYSTEM.md` | **Read first.** Architecture, ID scheme, ingest protocols, worked example |
 | `DASHBOARD.md` | 2-minute status: health lights, domain mastery, resume positions |
 | `GOALS.md` | Dec 2027 outcomes, back-cast milestones, pace floors (≥10h / ≥5 sessions per week) |
-| `ARCHITECTURE_CHANGELOG.md` | Append-only record of every structural change (v2.0 → current) |
+| `docs/` | Reference docs: `USAGE.md` (exact prompts & commands), `ARCHITECTURE_CHANGELOG.md` (append-only record of every structural change, v2.0 → current) |
 | `study_logs/` | Event layer — one append-only log per *source* (Green Book, Leetcode, …) |
 | `knowledge/` | Knowledge layer — one file per concept, organized by *domain*; typed edges; `techniques/` for proof techniques; `CONNECTIONS.md` for cross-domain links |
 | `review/` | Retention engine — spaced-repetition `QUEUE.md` (single source of review state), `MISTAKES.md` (root causes, auto-escalation at 3 recurrences), `BLOCKERS.md`, weekly `SNAPSHOTS.md` |
@@ -34,7 +34,7 @@ flowchart TB
 
 ## Usage
 
-Exact prompts and commands: **[USAGE.md](USAGE.md)**. The short version:
+Exact prompts and commands: **[docs/USAGE.md](docs/USAGE.md)**. The short version:
 
 **After studying:** append raw notes (duration, source, tags `[STRUGGLE]` `[INSIGHT]` `[NEEDS_RECALL]` `[INTERVIEW]`) and run Full Ingest per `SYSTEM.md`. Commit: `git commit -m "S-YYYY-MM-DD-n: topic"` and push.
 

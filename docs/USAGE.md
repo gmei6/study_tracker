@@ -1,10 +1,10 @@
 # USAGE.md — Exact Commands & Prompts
 
-> Copy-paste playbook. Two kinds of "commands": **prompts** you give the AI (in a chat with the QUANT_TRACKER folder selected) and **git commands** you run in Terminal. Nothing else is required.
+> Copy-paste playbook. Two kinds of "commands": **prompts** you give the AI (in a chat with the study_tracker folder selected) and **git commands** you run in Terminal. Nothing else is required.
 
 ## 1. Start a study session (new chat)
 
-Select the QUANT_TRACKER folder, then paste:
+Select the study_tracker folder, then paste:
 
 ```
 Read SYSTEM.md, then DASHBOARD.md, due rows in review/QUEUE.md, and open

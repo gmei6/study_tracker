@@ -123,7 +123,7 @@ Repo should be a git repo (`git init` once, manually). Commit after every ingest
 
 - `study_logs/` append-only. Historical knowledge is sacred.
 - Mistakes/blockers never deleted — status changes only.
-- Structural changes → `ARCHITECTURE_CHANGELOG.md`, reversible.
+- Structural changes → `docs/ARCHITECTURE_CHANGELOG.md`, reversible.
 - One concept, one file; reference by ID everywhere else.
 - Counters derived, never stored twice. Review state lives in QUEUE.md only.
 - No fabricated data: examples are marked synthetic; metrics reflect logged work only.

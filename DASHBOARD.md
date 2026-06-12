@@ -64,4 +64,4 @@ Archive: `review/SNAPSHOTS.md` (append-only). **Latest:** none yet.
 
 ---
 
-*v1 STUDY_MASTER.md content: preserved verbatim in `ARCHITECTURE_CHANGELOG.md` § Appendix A.*
+*v1 STUDY_MASTER.md content: preserved verbatim in `docs/ARCHITECTURE_CHANGELOG.md` § Appendix A.*
