@@ -7,7 +7,7 @@
 Select the study_tracker folder, then paste:
 
 ```
-Read SYSTEM.md, then DASHBOARD.md, due rows in review/QUEUE.md, and open
+Read SYSTEM.md, GOALS.md, then DASHBOARD.md, due rows in review/QUEUE.md, and open
 BLOCKERS. Run the session start protocol: give me my due recalls (priority
 then age, cap 15), then a study recommendation.
 ```
