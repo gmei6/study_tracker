@@ -20,3 +20,4 @@
 | T-012 | Logarithmic differentiation | T-012_logarithmic-differentiation.md | 1/5 | C-ANLY-001, C-ANLY-002, Q-001 |
 | T-013 | Sign-chart / monotonicity analysis | T-013_sign-chart-monotonicity.md | 2/5 | C-ANLY-002, Q-002 |
 | T-014 | Index vs. slice in recursive string traversal | T-014_index-vs-slice-recursive.md | 1/5 | C-ALGO-002 |
+| T-015 | Element-by-element independent counting | T-015_element-by-element-counting.md | 1/5 | C-PROB-001 |

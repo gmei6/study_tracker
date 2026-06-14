@@ -5,11 +5,11 @@
 
 ## Current Status
 
-- **Last Updated:** 2026-06-13 (v2.3)
+- **Last Updated:** 2026-06-14 (v2.3)
 - **Phase:** Foundations & Core Theory
-- **Sessions logged:** 2
-- **Concepts:** 5 | **Techniques:** 3 | **Mistakes:** 12 | **Open blockers:** 0
-- **Review queue:** 3 due 2026-06-14; 4 due 2026-06-16
+- **Sessions logged:** 3
+- **Concepts:** 6 | **Techniques:** 4 | **Mistakes:** 14 | **Open blockers:** 0
+- **Review queue:** 4 due 2026-06-15; 4 due 2026-06-16; 1 due 2026-06-17
 
 ## System Health
 
@@ -18,8 +18,8 @@
 | Indicator | Value | Status |
 |---|---|---|
 | Days since last session | 0 | 🟢 |
-| Sessions in last 7 days (target ≥ 5) | 2 | 🟢 |
-| Queue due count (trend) | 7 (↑) | 🟢 |
+| Sessions in last 7 days (target ≥ 5) | 3 | 🟢 |
+| Queue due count (trend) | 9 (↑) | 🟢 |
 | Pending extractions | 0 | 🟢 |
 | Weeks since monthly review | 0 (baseline 2026-06-11) | 🟢 |
 
@@ -31,6 +31,7 @@
 |---|---|---|---|---|---|
 | ANLY | 3 | 1.7 | 0 | 8 | Early — foundations seeded |
 | ALGO | 2 | 2.0 | 0 | 4 | Early — first LC problem done |
+| PROB | 1 | 1.0 | 0 | 2 | Early — seeded (Putnam A-1) |
 
 ## Pending Extractions
 
@@ -48,12 +49,12 @@
 | LinAlg text | LOG_LinAlg | Not started | — |
 | Stochastics course/notes | LOG_Stochastics | Not started | — |
 | Green Book | LOG_GreenBook | In progress | Calculus section, ~p.50 (3 problems done) |
-| Putnam archive | LOG_Putnam | Not started | — |
+| Putnam archive | LOG_Putnam | In progress | A-1 done (2026-06-14) |
 | New sources | log created on first session | — | — |
 
 ## Next Session Focus
 
-1. **Due recalls (2026-06-14):** 3 items — C-ANLY-003 (L'Hôpital, failed twice), C-ALGO-002 (Trie wildcard), T-014 (index vs. slice). All P1. Do before new material.
+1. **Due recalls (2026-06-15):** 4 items — C-PROB-001 (set triple distribution), T-015 (element-by-element counting), C-ALGO-002 (Trie wildcard), T-014 (index vs. slice). All P1. Do before new material.
 2. Continue Green Book Calculus section (~p.50+).
 3. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
 

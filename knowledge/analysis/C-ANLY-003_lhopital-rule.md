@@ -44,4 +44,4 @@ Near an indeterminate point, the ratio $f/g$ behaves like the ratio of their lin
 
 ## Review
 
-- **Last review:** 2026-06-13 — fail. *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-14 — pass. *(Full history: review/QUEUE.md Results column.)*

@@ -50,4 +50,4 @@ def search(self, word):
 
 ## Review
 
-- **Last review:** 2026-06-13 — fail. *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-14 — fail. *(Full history: review/QUEUE.md Results column.)*

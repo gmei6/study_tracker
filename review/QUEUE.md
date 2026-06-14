@@ -19,11 +19,13 @@ Enter only if (a) failed active recall, or (b) priority 1–2. Priority: **1** =
 | Item | Refers to | Priority | Added | Rung | Next due | Streak | Results |
 |---|---|---|---|---|---|---|---|
 | Trie — basic structure + addWord | C-ALGO-001 | 1 | 2026-06-13 | 3d | 2026-06-16 | 1 | P |
-| Trie wildcard search — recursive_search | C-ALGO-002 | 1 | 2026-06-13 | 1d | 2026-06-14 | 0 | F |
-| Index vs. slice in recursive traversal | T-014 | 1 | 2026-06-13 | 1d | 2026-06-14 | 0 | F |
+| Ordered set k-tuple distribution | C-PROB-001 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
+| Element-by-element independent counting | T-015 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
+| Trie wildcard search — recursive_search | C-ALGO-002 | 1 | 2026-06-13 | 1d | 2026-06-15 | 0 | F·F |
+| Index vs. slice in recursive traversal | T-014 | 1 | 2026-06-13 | 1d | 2026-06-15 | 0 | F·F |
 | Logarithmic differentiation | C-ANLY-001 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
 | $e^\pi$ vs $\pi^e$ via $f(x)=x^{1/x}$ | C-ANLY-002 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
-| L'Hôpital's rule — indeterminate forms | C-ANLY-003 | 1 | 2026-06-12 | 1d | 2026-06-14 | 0 | F·F |
+| L'Hôpital's rule — indeterminate forms | C-ANLY-003 | 1 | 2026-06-12 | 3d | 2026-06-17 | 1 | F·F·P |
 | Logarithmic differentiation (technique) | T-012 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
 
 ## Graduated (≥ 60d; never deleted)
