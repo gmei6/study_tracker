@@ -9,6 +9,18 @@
 
 ---
 
+## S-2026-06-14-2 — Integration by parts (∫ln x dx) and ∫sec x dx via substitution + partial fractions
+- Duration: 32 | Effort: 4
+- Source: Green Book, Calculus section, Problems A & B
+
+**Problem A [INTERVIEW]:** ∫ln(x) dx
+Solved independently using IBP: u = ln(x), dv = dx → du = 1/x dx, v = x. Result: x·ln(x) - ∫1 dx = x·ln(x) - x + C. Verified by differentiation: d/dx(x·ln x - x) = ln x + 1 - 1 = ln x ✓. Clean.
+
+**Problem B [INTERVIEW]:** ∫sec(x) dx from 0 to π/6
+Initially recalled sec(x) = 1/sin(x) [STRUGGLE] — wrong (M-015). Correct: sec(x) = 1/cos(x). Guessed antiderivative behaves like ln(cos x) but couldn't handle chain rule factor of -sin(x) — stuck. Given hint: try u = sin(x) substitution, converting to ∫1/(1-u²) du. Set up partial fractions 1/(1-u²) = A/(1-u) + B/(1+u) correctly, but tried to arbitrarily set A = 1 instead of solving systematically [STRUGGLE] (M-016). Systematic method: multiply both sides by (1-u²), equate coefficients → A = B = 1/2. Explained, not yet reproduced [NEEDS_RECALL]. When integrating: factored constant 1/2 out as a 2 [STRUGGLE] (M-017), and applied FTC to -ln|1-u| in wrong order [STRUGGLE] (M-018). Once corrected: 1/2·[ln|1+u| - (-ln|1-u|)] from 0 to 1/2 = 1/2·[ln(3/2) - (-ln(1/2))] - 0 = 1/2·ln(3).
+
+---
+
 ## S-2026-06-12-1 — Logarithmic differentiation, exponential comparison, L'Hôpital
 - Duration: 43 | Effort: 2
 - Source: Green Book, Calculus Section, ~p.50

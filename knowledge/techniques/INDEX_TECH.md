@@ -21,3 +21,5 @@
 | T-013 | Sign-chart / monotonicity analysis | T-013_sign-chart-monotonicity.md | 2/5 | C-ANLY-002, Q-002 |
 | T-014 | Index vs. slice in recursive string traversal | T-014_index-vs-slice-recursive.md | 1/5 | C-ALGO-002 |
 | T-015 | Element-by-element independent counting | T-015_element-by-element-counting.md | 1/5 | C-PROB-001 |
+| T-016 | Integration by parts (IBP) | T-016_integration-by-parts.md | 2/5 | C-ANLY-004 |
+| T-017 | Partial fraction decomposition | T-017_partial-fraction-decomposition.md | 1/5 | C-ANLY-005 |

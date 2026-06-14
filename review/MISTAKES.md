@@ -23,6 +23,10 @@
 | M-011 | 2026-06-13 | ALGO | Passed `word[plus_one:]` (sliced string) AND `plus_one` as index into it — index was past the end of the shorter string | Mixed index advancement and slicing simultaneously; see T-014 | 2 | S-2026-06-13-1, review-2026-06-14 | active |
 | M-012 | 2026-06-13 | ALGO | Early `return True` when dot is last char (`index == len(word)-1`) skips checking `curr.word` — incorrectly matches paths that aren't complete words | Incomplete base case; must check `curr.word` even at end of wildcard | 2 | S-2026-06-13-1, review-2026-06-14 | active |
 
+| M-015 | 2026-06-14 | ANLY | Recalled sec(x) = 1/sin(x) instead of 1/cos(x) | Weak recall of reciprocal trig functions (sec/csc confusion) | 1 | S-2026-06-14-2 | active |
+| M-016 | 2026-06-14 | ANLY | Set A=1 arbitrarily in partial fractions instead of solving for coefficients | Skipped systematic coefficient-solving; see T-017 | 1 | S-2026-06-14-2 | active |
+| M-017 | 2026-06-14 | ANLY | Factored the constant 1/2 out of ∫du/(1−u) as 2 instead of 1/2 | Reciprocal constant arithmetic slip | 1 | S-2026-06-14-2 | active |
+| M-018 | 2026-06-14 | ANLY | Wrong evaluation order for FTC on −ln\|1−u\| term (sign/bound error) | Applied F(a)−F(b) instead of F(b)−F(a); negative from antiderivative compounded the confusion | 1 | S-2026-06-14-2 | active |
 | M-013 | 2026-06-14 | PROB | Applied stars-and-bars to a set-distribution problem where elements can appear in multiple sets — model assumes disjoint partition | Conflated "distributing elements into bins" with "partitioning" — stars-and-bars requires each element in exactly one bin | 1 | S-2026-06-14-1 | active |
 | M-014 | 2026-06-14 | PROB | After recognizing overlap, summed (y+2 choose 2)·y! over y=10..20 — hit prime factor 19 dead end | Missed element-independence; tried aggregating over configurations instead of multiplying per-element choices; see T-015 | 1 | S-2026-06-14-1 | active |
 

@@ -8,7 +8,7 @@
 |---|---|---|---|
 | Mental Math | questions/QBank_MentalMath.md | 0 | — |
 | Probability & Combinatorics | questions/QBank_Probability.md | 1 | Q-004 |
-| Calculus & Analysis | questions/QBank_Calculus.md | 3 | Q-003 |
+| Calculus & Analysis | questions/QBank_Calculus.md | 5 | Q-006 |
 | Coding | questions/QBank_Coding.md | 0 | — |
 | Stochastic / Martingale | questions/QBank_Stochastic.md | 0 | — |
 | Market Making / Fermi | questions/QBank_MarketMaking.md | 0 | — |

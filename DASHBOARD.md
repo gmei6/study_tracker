@@ -7,9 +7,9 @@
 
 - **Last Updated:** 2026-06-14 (v2.3)
 - **Phase:** Foundations & Core Theory
-- **Sessions logged:** 3
-- **Concepts:** 6 | **Techniques:** 4 | **Mistakes:** 14 | **Open blockers:** 0
-- **Review queue:** 4 due 2026-06-15; 4 due 2026-06-16; 1 due 2026-06-17
+- **Sessions logged:** 4
+- **Concepts:** 8 | **Techniques:** 6 | **Mistakes:** 18 | **Open blockers:** 0
+- **Review queue:** 6 due 2026-06-15; 4 due 2026-06-16; 3 due 2026-06-17
 
 ## System Health
 
@@ -18,8 +18,8 @@
 | Indicator | Value | Status |
 |---|---|---|
 | Days since last session | 0 | 🟢 |
-| Sessions in last 7 days (target ≥ 5) | 3 | 🟢 |
-| Queue due count (trend) | 9 (↑) | 🟢 |
+| Sessions in last 7 days (target ≥ 5) | 4 | 🟢 |
+| Queue due count (trend) | 13 (↑) | 🟢 |
 | Pending extractions | 0 | 🟢 |
 | Weeks since monthly review | 0 (baseline 2026-06-11) | 🟢 |
 
@@ -29,7 +29,7 @@
 
 | Domain | # Concepts | Avg mastery | # ≥ 4 | Open mistakes | Verdict |
 |---|---|---|---|---|---|
-| ANLY | 3 | 1.7 | 0 | 8 | Early — foundations seeded |
+| ANLY | 5 | 1.2 | 0 | 12 | Early — calculus toolkit building |
 | ALGO | 2 | 2.0 | 0 | 4 | Early — first LC problem done |
 | PROB | 1 | 1.0 | 0 | 2 | Early — seeded (Putnam A-1) |
 
@@ -48,14 +48,14 @@
 | Leetcode | LOG_Leetcode | In progress | Problem 211 done (2026-06-13) |
 | LinAlg text | LOG_LinAlg | Not started | — |
 | Stochastics course/notes | LOG_Stochastics | Not started | — |
-| Green Book | LOG_GreenBook | In progress | Calculus section, ~p.50 (3 problems done) |
+| Green Book | LOG_GreenBook | In progress | Calculus section, Problems A & B done (2026-06-14, 5 problems total) |
 | Putnam archive | LOG_Putnam | In progress | A-1 done (2026-06-14) |
 | New sources | log created on first session | — | — |
 
 ## Next Session Focus
 
-1. **Due recalls (2026-06-15):** 4 items — C-PROB-001 (set triple distribution), T-015 (element-by-element counting), C-ALGO-002 (Trie wildcard), T-014 (index vs. slice). All P1. Do before new material.
-2. Continue Green Book Calculus section (~p.50+).
+1. **Due recalls (2026-06-15):** 6 items — C-ANLY-005 (∫sec x), T-017 (PFD), C-PROB-001 (set triple distribution), T-015 (element-by-element counting), C-ALGO-002 (Trie wildcard), T-014 (index vs. slice). All P1. Do before new material.
+2. Continue Green Book Calculus section (next problem after B).
 3. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
 
 ---
