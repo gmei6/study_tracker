@@ -77,6 +77,27 @@ Rules for {my notes}:
 
 Then paste the generated block into a tracker chat (with the study_tracker folder selected) — it goes through the normal Full Ingest.
 
+**Active recall with a scribe?** After answering all due recall items, send this to trigger the summary:
+
+```
+Generate the recall results summary now. For each item we covered, produce ONE copy-paste block in exactly this format:
+
+Recall results: [date]
+- {item name} ({ID}): PASS / FAIL — {what went wrong, or "clean"}
+[repeat for each item]
+New mistakes: {describe any root-cause mistakes surfaced, or "none"}
+New insights: {any [INSIGHT]-worthy connections, or "none"}
+
+Rules:
+1. FAIL if I blanked, got it partially, needed prompting, or gave an incomplete proof.
+   PASS only if cold and complete. Do not soften fails — the queue scheduler depends on honest results.
+2. List mistakes and insights separately at the end, not inline, so the tracker can decide
+   whether an ingest is warranted.
+3. Never invent a result. If you're unsure how I answered, ask me before outputting.
+```
+
+Paste the output into the tracker chat — the tracker updates QUEUE rows and last-review lines, and flags if any mistake warrants a targeted ingest.
+
 **Why rule 3 exists:** the tracker's mastery scores and queue admissions are built from what *you* can do. An LLM's clean explanation pasted as your own notes would inflate mastery and corrupt the review system at its source.
 
 ## 3. Commit after every ingest (Terminal)

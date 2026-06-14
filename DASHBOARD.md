@@ -5,11 +5,11 @@
 
 ## Current Status
 
-- **Last Updated:** 2026-06-11 (v2.3)
+- **Last Updated:** 2026-06-13 (v2.3)
 - **Phase:** Foundations & Core Theory
-- **Sessions logged:** 0
-- **Concepts:** 0 | **Techniques:** 0 | **Mistakes:** 0 | **Open blockers:** 0
-- **Review queue:** empty — nothing due
+- **Sessions logged:** 2
+- **Concepts:** 5 | **Techniques:** 3 | **Mistakes:** 12 | **Open blockers:** 0
+- **Review queue:** 3 due 2026-06-14; 4 due 2026-06-16
 
 ## System Health
 
@@ -17,9 +17,9 @@
 
 | Indicator | Value | Status |
 |---|---|---|
-| Days since last session | — (none yet) | 🟢 |
-| Sessions in last 7 days (target ≥ 5) | 0 (baseline — pace tracking starts with first session) | 🟢 |
-| Queue due count (trend) | 0 (→) | 🟢 |
+| Days since last session | 0 | 🟢 |
+| Sessions in last 7 days (target ≥ 5) | 2 | 🟢 |
+| Queue due count (trend) | 7 (↑) | 🟢 |
 | Pending extractions | 0 | 🟢 |
 | Weeks since monthly review | 0 (baseline 2026-06-11) | 🟢 |
 
@@ -29,7 +29,8 @@
 
 | Domain | # Concepts | Avg mastery | # ≥ 4 | Open mistakes | Verdict |
 |---|---|---|---|---|---|
-| — | — | — | — | — | No data yet |
+| ANLY | 3 | 1.7 | 0 | 8 | Early — foundations seeded |
+| ALGO | 2 | 2.0 | 0 | 4 | Early — first LC problem done |
 
 ## Pending Extractions
 
@@ -43,17 +44,17 @@
 
 | Source | Log | Status | Current position |
 |---|---|---|---|
-| Leetcode | LOG_Leetcode | Not started | — |
+| Leetcode | LOG_Leetcode | In progress | Problem 211 done (2026-06-13) |
 | LinAlg text | LOG_LinAlg | Not started | — |
 | Stochastics course/notes | LOG_Stochastics | Not started | — |
-| Green Book | LOG_GreenBook | Not started | — |
+| Green Book | LOG_GreenBook | In progress | Calculus section, ~p.50 (3 problems done) |
 | Putnam archive | LOG_Putnam | Not started | — |
 | New sources | log created on first session | — | — |
 
 ## Next Session Focus
 
-1. Submit first raw session notes to seed a baseline in at least one domain.
-2. Confirm primary source per domain.
+1. **Due recalls (2026-06-14):** 3 items — C-ANLY-003 (L'Hôpital, failed twice), C-ALGO-002 (Trie wildcard), T-014 (index vs. slice). All P1. Do before new material.
+2. Continue Green Book Calculus section (~p.50+).
 3. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
 
 ---

@@ -42,7 +42,7 @@
 | Weekly study hours (floor, not goal) | 0 | ≥ 10 | every week |
 | Sessions per week (floor, not goal) | 0 | ≥ 5 | every week |
 | Pace streak (consecutive weeks meeting both floors; longest: 0) | 0 | unbroken | rolling |
-| Leetcode solved | 0 | 100+ | Sep 2026 |
+| Leetcode solved | 1 | 100+ | Sep 2026 |
 | Leetcode solved (mediums at speed) | 0 | 200+ | Jan 2027 |
 | Concepts at mastery ≥ 4 | 0 | TBD per domain | rolling |
 | Green Book pass 1 (chapters) | 0 | all | Jan 2027 |

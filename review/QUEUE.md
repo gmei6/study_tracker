@@ -18,8 +18,13 @@ Enter only if (a) failed active recall, or (b) priority 1–2. Priority: **1** =
 
 | Item | Refers to | Priority | Added | Rung | Next due | Streak | Results |
 |---|---|---|---|---|---|---|---|
-
-*Empty — populated from first session ingest.*
+| Trie — basic structure + addWord | C-ALGO-001 | 1 | 2026-06-13 | 3d | 2026-06-16 | 1 | P |
+| Trie wildcard search — recursive_search | C-ALGO-002 | 1 | 2026-06-13 | 1d | 2026-06-14 | 0 | F |
+| Index vs. slice in recursive traversal | T-014 | 1 | 2026-06-13 | 1d | 2026-06-14 | 0 | F |
+| Logarithmic differentiation | C-ANLY-001 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
+| $e^\pi$ vs $\pi^e$ via $f(x)=x^{1/x}$ | C-ANLY-002 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
+| L'Hôpital's rule — indeterminate forms | C-ANLY-003 | 1 | 2026-06-12 | 1d | 2026-06-14 | 0 | F·F |
+| Logarithmic differentiation (technique) | T-012 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
 
 ## Graduated (≥ 60d; never deleted)
 
