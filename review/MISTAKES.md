@@ -23,6 +23,12 @@
 | M-011 | 2026-06-13 | ALGO | Passed `word[plus_one:]` (sliced string) AND `plus_one` as index into it — index was past the end of the shorter string | Mixed index advancement and slicing simultaneously; see T-014 | 2 | S-2026-06-13-1, review-2026-06-14 | active |
 | M-012 | 2026-06-13 | ALGO | Early `return True` when dot is last char (`index == len(word)-1`) skips checking `curr.word` — incorrectly matches paths that aren't complete words | Incomplete base case; must check `curr.word` even at end of wildcard | 2 | S-2026-06-13-1, review-2026-06-14 | active |
 
+| M-019 | 2026-06-14 | ALGO | Grid boundary check relied on implicit IndexError — Python negative indices wrap silently (`board[-1]` valid), so boundary violations went undetected | Must always check `0 <= i < m and 0 <= j < n` explicitly; see T-018 | 1 | S-2026-06-14-3 | active |
+| M-020 | 2026-06-14 | ALGO | `enumerate[board]` instead of `enumerate(board)` — used [] (indexing) instead of () (function call), causing TypeError | Syntax confusion: function calls use (), not [] | 1 | S-2026-06-14-3 | active |
+| M-021 | 2026-06-14 | ALGO | Grid DFS recursed on same cell (i, j) instead of neighbors (i±1, j±1) | Wrong recursive targets — DFS explores neighbors, not current cell | 1 | S-2026-06-14-3 | active |
+| M-022 | 2026-06-14 | ALGO | Missing `self.` prefix for recursive DFS method call inside class | Forgot Python class method call syntax in recursive context | 1 | S-2026-06-14-3 | active |
+| M-023 | 2026-06-14 | ALGO | Permanently mutated board with '#' without restoring after recursion — no backtracking | Missing backtrack step: must restore `board[i][j] = tmp` after recursive block; see T-018 | 1 | S-2026-06-14-3 | active |
+| M-024 | 2026-06-14 | ALGO | Couldn't identify Trie as optimization for multi-word grid search — proposed per-word DFS (TLE) | Didn't recognize that shared prefixes across many words map to a single Trie-guided DFS pass; see C-ALGO-003 | 1 | S-2026-06-14-3 | active |
 | M-015 | 2026-06-14 | ANLY | Recalled sec(x) = 1/sin(x) instead of 1/cos(x) | Weak recall of reciprocal trig functions (sec/csc confusion) | 1 | S-2026-06-14-2 | active |
 | M-016 | 2026-06-14 | ANLY | Set A=1 arbitrarily in partial fractions instead of solving for coefficients | Skipped systematic coefficient-solving; see T-017 | 1 | S-2026-06-14-2 | active |
 | M-017 | 2026-06-14 | ANLY | Factored the constant 1/2 out of ∫du/(1−u) as 2 instead of 1/2 | Reciprocal constant arithmetic slip | 1 | S-2026-06-14-2 | active |

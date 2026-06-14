@@ -9,6 +9,25 @@
 
 ---
 
+## S-2026-06-14-3 — LeetCode 212: Word Search II (Trie + Grid DFS)
+- Duration: 54 | Effort: 4
+- Source: Leetcode — 212. Word Search II
+
+[INTERVIEW] Given m×n board and list of words, return all words constructible from adjacent cells (H/V only, no reuse).
+
+Attempted brute-force DFS per word. Bugs:
+
+1. Grid boundary check: failed to check `0 <= i < m and 0 <= j < n` explicitly — Python's negative indexing means `board[-1]` wraps instead of raising IndexError [STRUGGLE] (M-019).
+2. `enumerate[board]` syntax error — used [] for function call, causing TypeError (tuples as indices) [STRUGGLE] (M-020). Correct: `enumerate(board)`.
+3. DFS structure wrong: recursed on same cell (i, j) instead of all 4 neighbors (i±1, j±1) [STRUGGLE] (M-021). Adjacent cells are the recursive targets, not the current cell.
+4. Method call inside class missing `self.` prefix [STRUGGLE] (M-022).
+5. Mutated board with '#' to mark visited but never restored after recursion — no backtracking [STRUGGLE] (M-023). Correct: set `board[i][j] = '#'`, recurse, then `board[i][j] = tmp` (restore).
+6. Struggled to identify Trie as the optimization for TLE: per-word DFS is O(words × cells × 4^L); with Trie, all words are searched in a single DFS pass sharing prefix work [STRUGGLE] (M-024).
+
+Clean grid DFS backtracking pattern (T-018) and Trie-integrated solution (C-ALGO-003) explained, not yet reproduced [NEEDS_RECALL].
+
+---
+
 ## S-2026-06-13-1 — LeetCode 211: Trie Wildcard Search
 - Duration: 47 | Effort: 4
 - Source: Leetcode — 211. Design Add and Search Words Data Structure

@@ -19,6 +19,8 @@ Enter only if (a) failed active recall, or (b) priority 1–2. Priority: **1** =
 | Item | Refers to | Priority | Added | Rung | Next due | Streak | Results |
 |---|---|---|---|---|---|---|---|
 | Trie — basic structure + addWord | C-ALGO-001 | 1 | 2026-06-13 | 3d | 2026-06-16 | 1 | P |
+| Word Search II — Trie + Grid DFS | C-ALGO-003 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
+| Grid DFS with backtracking | T-018 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
 | ∫ln(x) dx — IBP setup and result | C-ANLY-004 | 1 | 2026-06-14 | 3d | 2026-06-17 | 1 | P |
 | ∫sec(x) dx — substitution + partial fractions | C-ANLY-005 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
 | Integration by parts (IBP) | T-016 | 1 | 2026-06-14 | 3d | 2026-06-17 | 1 | P |

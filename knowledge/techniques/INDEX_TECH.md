@@ -23,3 +23,4 @@
 | T-015 | Element-by-element independent counting | T-015_element-by-element-counting.md | 1/5 | C-PROB-001 |
 | T-016 | Integration by parts (IBP) | T-016_integration-by-parts.md | 2/5 | C-ANLY-004 |
 | T-017 | Partial fraction decomposition | T-017_partial-fraction-decomposition.md | 1/5 | C-ANLY-005 |
+| T-018 | Grid DFS with backtracking | T-018_grid-dfs-backtracking.md | 1/5 | C-ALGO-003 |

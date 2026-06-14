@@ -7,9 +7,9 @@
 
 - **Last Updated:** 2026-06-14 (v2.3)
 - **Phase:** Foundations & Core Theory
-- **Sessions logged:** 4
-- **Concepts:** 8 | **Techniques:** 6 | **Mistakes:** 18 | **Open blockers:** 0
-- **Review queue:** 6 due 2026-06-15; 4 due 2026-06-16; 3 due 2026-06-17
+- **Sessions logged:** 5
+- **Concepts:** 9 | **Techniques:** 7 | **Mistakes:** 24 | **Open blockers:** 0
+- **Review queue:** 8 due 2026-06-15; 4 due 2026-06-16; 3 due 2026-06-17
 
 ## System Health
 
@@ -18,8 +18,8 @@
 | Indicator | Value | Status |
 |---|---|---|
 | Days since last session | 0 | 🟢 |
-| Sessions in last 7 days (target ≥ 5) | 4 | 🟢 |
-| Queue due count (trend) | 13 (↑) | 🟢 |
+| Sessions in last 7 days (target ≥ 5) | 5 | 🟢 |
+| Queue due count (trend) | 15 (↑) | 🟢 |
 | Pending extractions | 0 | 🟢 |
 | Weeks since monthly review | 0 (baseline 2026-06-11) | 🟢 |
 
@@ -30,7 +30,7 @@
 | Domain | # Concepts | Avg mastery | # ≥ 4 | Open mistakes | Verdict |
 |---|---|---|---|---|---|
 | ANLY | 5 | 1.2 | 0 | 12 | Early — calculus toolkit building |
-| ALGO | 2 | 2.0 | 0 | 4 | Early — first LC problem done |
+| ALGO | 3 | 1.7 | 0 | 10 | Early — Trie cluster building |
 | PROB | 1 | 1.0 | 0 | 2 | Early — seeded (Putnam A-1) |
 
 ## Pending Extractions
@@ -45,7 +45,7 @@
 
 | Source | Log | Status | Current position |
 |---|---|---|---|
-| Leetcode | LOG_Leetcode | In progress | Problem 211 done (2026-06-13) |
+| Leetcode | LOG_Leetcode | In progress | Problem 212 done (2026-06-14) |
 | LinAlg text | LOG_LinAlg | Not started | — |
 | Stochastics course/notes | LOG_Stochastics | Not started | — |
 | Green Book | LOG_GreenBook | In progress | Calculus section, Problems A & B done (2026-06-14, 5 problems total) |
@@ -54,7 +54,7 @@
 
 ## Next Session Focus
 
-1. **Due recalls (2026-06-15):** 6 items — C-ANLY-005 (∫sec x), T-017 (PFD), C-PROB-001 (set triple distribution), T-015 (element-by-element counting), C-ALGO-002 (Trie wildcard), T-014 (index vs. slice). All P1. Do before new material.
+1. **Due recalls (2026-06-15):** 8 items — C-ALGO-003 (Word Search II), T-018 (Grid DFS), C-ANLY-005 (∫sec x), T-017 (PFD), C-PROB-001 (set triple distribution), T-015 (element-by-element counting), C-ALGO-002 (Trie wildcard), T-014 (index vs. slice). All P1. Do before new material.
 2. Continue Green Book Calculus section (next problem after B).
 3. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
 
