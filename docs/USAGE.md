@@ -44,6 +44,8 @@ Process all pending extractions from DASHBOARD.
 If you study alongside a different AI (tutoring, working problems), paste this **at the start** of that session. It makes that AI compile the ingest message for you, so nothing is lost in translation:
 
 ```
+Read SYSTEM.md, GOALS.md, then DASHBOARD.md, due rows in review/QUEUE.md, and open BLOCKERS. 
+
 You are my study scribe. Alongside helping me study, track this session and
 — when I say "generate the ingest message" — produce ONE copy-paste block in
 EXACTLY this format:
