@@ -4,5 +4,4 @@
 
 | C-ID 1 | C-ID 2 | Insight (one line) | Discovered (S-ID) |
 |---|---|---|---|
-
-*None yet. Example of what belongs here: martingale convergence ↔ stochastic gradient descent convergence; eigendecomposition ↔ Markov chain stationary distributions; convex duality ↔ risk-neutral pricing.*
+| C-LINALG-002 | C-ALGO-003 | Ordered lists (arrays/vectors) vs. unordered sets — the same ordered/unordered distinction that separates $\mathbb{F}^n$ from a set of coordinates is what separates a DFS visited-set from the path itself | S-2026-06-14-4 |

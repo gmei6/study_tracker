@@ -24,3 +24,5 @@
 | T-016 | Integration by parts (IBP) | T-016_integration-by-parts.md | 2/5 | C-ANLY-004 |
 | T-017 | Partial fraction decomposition | T-017_partial-fraction-decomposition.md | 1/5 | C-ANLY-005 |
 | T-018 | Grid DFS with backtracking | T-018_grid-dfs-backtracking.md | 1/5 | C-ALGO-003 |
+| T-019 | Conjugate division (complex multiplicative inverse) | T-019_conjugate-division.md | 1/5 | C-LINALG-001 |
+| T-020 | Complex root-finding via component equations | T-020_complex-root-finding.md | 1/5 | C-LINALG-001 |

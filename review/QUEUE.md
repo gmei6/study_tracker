@@ -33,6 +33,10 @@ Enter only if (a) failed active recall, or (b) priority 1–2. Priority: **1** =
 | $e^\pi$ vs $\pi^e$ via $f(x)=x^{1/x}$ | C-ANLY-002 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
 | L'Hôpital's rule — indeterminate forms | C-ANLY-003 | 1 | 2026-06-12 | 3d | 2026-06-17 | 1 | F·F·P |
 | Logarithmic differentiation (technique) | T-012 | 1 | 2026-06-12 | 3d | 2026-06-16 | 1 | F·P |
+| Complex numbers — multiplicative inverse & associativity proof | C-LINALG-001 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
+| Lists and $\mathbb{F}^n$ — definition, integer dimension | C-LINALG-002 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
+| Conjugate division — $(a+bi)^{-1}$ to standard form | T-019 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
+| Complex root-finding — solve $(a+bi)^n = z$ componentwise | T-020 | 1 | 2026-06-14 | 1d | 2026-06-15 | 0 | F |
 
 ## Graduated (≥ 60d; never deleted)
 
