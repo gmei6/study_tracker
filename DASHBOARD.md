@@ -53,7 +53,7 @@
 | Putnam archive | LOG_Putnam | In progress | A-1 done (2026-06-14) |
 | New sources | log created on first session | — | — |
 
-*(Textbook source files: `docs/textbooks/pdf_version/` · MD versions: `docs/textbooks/md_version/` — created lazily.)*
+*(Textbook source files: `docs/textbooks/pdf_version/` · MD versions: `docs/textbooks/md_version/` — all 3 textbooks converted; each in its own subfolder. See `docs/textbooks/md_version/INDEX.md`.)*
 
 ## Next Session Focus
 

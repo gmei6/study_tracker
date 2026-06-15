@@ -1,9 +1,9 @@
 # Textbook MD Versions
 
-> MD conversions created lazily — convert a chapter when needed for a session, not all at once. Enables in-chat referencing without uploading a PDF each time.
+> Each textbook lives in its own subfolder: `{folder}/{book}.md` (full text), `{folder}/{book}_meta.json` (ToC + page polygon metadata), and `{folder}/_page_*_*.jpeg` (extracted images). All three planned textbooks are fully converted.
 
-| File (when created) | Textbook | Source log | Domain | Status |
+| Folder | Textbook | Source log | Domain | Status |
 |---|---|---|---|---|
-| `green_book.md` | Green Book | LOG_GreenBook | PROB, ANLY | Not created |
-| `LADR_4e.md` | *Linear Algebra Done Right*, 4th ed. — Sheldon Axler (2024) | LOG_LinAlg | LINALG | Not created |
-| `lawler_stoch.md` | *Introduction to Stochastic Processes*, 2nd ed. — Gregory F. Lawler | LOG_Stochastics | STOCH | Not created |
+| `a-practical-guide-to-quantitative-finance-interviews/` | *A Practical Guide to Quantitative Finance Interviews* — Xinfeng Zhou | LOG_GreenBook | PROB, ANLY | Created |
+| `Linear Algebra Done Right, 4th edition, by Sheldon Axler/` | *Linear Algebra Done Right*, 4th ed. — Sheldon Axler (2024) | LOG_LinAlg | LINALG | Created |
+| `Introduction to stochastic process-lawler_text/` | *Introduction to Stochastic Processes*, 2nd ed. — Gregory F. Lawler | LOG_Stochastics | STOCH | Created |
