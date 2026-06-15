@@ -9,7 +9,7 @@ Two layers plus supporting systems:
 1. **Event layer** — `study_logs/` — append-only chronological logs per *source*. What happened. Never edited, never summarized, never deleted.
 2. **Knowledge layer** — `knowledge/` — one file per concept (by *domain*) and per proof technique (`knowledge/techniques/`). What's true. Updated in place.
 
-Supporting: `review/` (queue, mistakes, blockers, snapshots), `interview/` (question bank, drills, firm profiles), `research/` (papers, ideas, contacts), `DASHBOARD.md` (status + health), `GOALS.md` (milestones + metrics), `knowledge/CONNECTIONS.md` (cross-domain registry).
+Supporting: `review/` (queue, mistakes, blockers, snapshots), `interview/` (question bank, drills, firm profiles), `research/` (papers, ideas, contacts), `docs/textbooks/` (source textbooks: `pdf_version/` for PDFs, `md_version/` for converted MD versions created lazily), `DASHBOARD.md` (status + health), `GOALS.md` (milestones + metrics), `knowledge/CONNECTIONS.md` (cross-domain registry).
 
 **Core rule:** every update is O(new information). Never reread entire logs to update state.
 

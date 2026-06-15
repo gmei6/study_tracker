@@ -46,11 +46,13 @@
 | Source | Log | Status | Current position |
 |---|---|---|---|
 | Leetcode | LOG_Leetcode | In progress | Problem 212 done (2026-06-14) |
-| LinAlg text | LOG_LinAlg | Not started | — |
-| Stochastics course/notes | LOG_Stochastics | Not started | — |
 | Green Book | LOG_GreenBook | In progress | Calculus section, Problems A & B done (2026-06-14, 5 problems total) |
+| *Linear Algebra Done Right*, 4th ed. — Axler (2024) | LOG_LinAlg | Not started | — |
+| *Introduction to Stochastic Processes*, 2nd ed. — Lawler | LOG_Stochastics | Not started | — |
 | Putnam archive | LOG_Putnam | In progress | A-1 done (2026-06-14) |
 | New sources | log created on first session | — | — |
+
+*(Textbook source files: `docs/textbooks/pdf_version/` · MD versions: `docs/textbooks/md_version/` — created lazily.)*
 
 ## Next Session Focus
 

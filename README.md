@@ -26,6 +26,7 @@ flowchart TB
 | `DASHBOARD.md` | 2-minute status: health lights, domain mastery, resume positions |
 | `GOALS.md` | Dec 2027 outcomes, back-cast milestones, pace floors (≥10h / ≥5 sessions per week) |
 | `docs/` | Reference docs: `USAGE.md` (exact prompts & commands), `ARCHITECTURE_CHANGELOG.md` (append-only record of every structural change, v2.0 → current) |
+| `docs/textbooks/` | Source textbooks — `pdf_version/` (Green Book, *Linear Algebra Done Right* 4th ed., *Introduction to Stochastic Processes* 2nd ed.) · `md_version/` (converted MD versions, created lazily) |
 | `study_logs/` | Event layer — one append-only log per *source* (Green Book, Leetcode, …) |
 | `knowledge/` | Knowledge layer — one file per concept, organized by *domain*; typed edges; `techniques/` for proof techniques; `CONNECTIONS.md` for cross-domain links |
 | `review/` | Retention engine — spaced-repetition `QUEUE.md` (single source of review state), `MISTAKES.md` (root causes, auto-escalation at 3 recurrences), `BLOCKERS.md`, weekly `SNAPSHOTS.md` |

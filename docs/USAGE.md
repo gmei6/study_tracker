@@ -77,6 +77,40 @@ Rules for {my notes}:
 
 Then paste the generated block into a tracker chat (with the study_tracker folder selected) — it goes through the normal Full Ingest.
 
+**Studying a textbook?** Send the relevant block below as your next message immediately after the scribe prompt.
+
+*Linear Algebra — Linear Algebra Done Right, 4th ed. (Sheldon Axler, 2024):*
+
+```
+We are studying Linear Algebra Done Right, 4th edition by Sheldon Axler today — specifically [Chapter / Section X: Title].
+Source log: LOG_LinAlg
+Domain: LINALG
+
+Session structure:
+- 5 min orient: locating where this section sits and what theorem it heads toward
+- 30 min active read: copying definitions + plain-English gloss + one example and one non-example per definition; reading each theorem statement until clear; skimming proofs for strategy only (induction? contradiction? construction?) — not mastering proofs
+- 15 min problem attempts: 1–2 easiest exercises; getting stuck is fine and expected
+- 10 min closed-book wrap-up: summary from memory + explicit list of what confused me
+
+Track throughout: every definition I copy (and my gloss), examples and non-examples I produce, each theorem statement and its proof strategy, problems I attempt (including dead ends and stucks), and everything I flag as confusing at wrap-up. Do not paraphrase my confusion away — confusion at wrap-up is ingest data.
+```
+
+*Stochastics — Introduction to Stochastic Processes, 2nd ed. (Gregory F. Lawler):*
+
+```
+We are studying Introduction to Stochastic Processes, 2nd edition by Gregory F. Lawler today — specifically [Chapter / Section X: Title].
+Source log: LOG_Stochastics
+Domain: STOCH
+
+Session structure:
+- 5 min orient: locating where this section sits and what theorem it heads toward
+- 30 min active read: copying definitions + plain-English gloss + one example and one non-example per definition; reading each theorem statement until clear; skimming proofs for strategy only (induction? contradiction? construction?) — not mastering proofs
+- 15 min problem attempts: 1–2 easiest exercises; getting stuck is fine and expected
+- 10 min closed-book wrap-up: summary from memory + explicit list of what confused me
+
+Track throughout: every definition I copy (and my gloss), examples and non-examples I produce, each theorem statement and its proof strategy, problems I attempt (including dead ends and stucks), and everything I flag as confusing at wrap-up. Do not paraphrase my confusion away — confusion at wrap-up is ingest data.
+```
+
 **Active recall with a scribe?** After answering all due recall items, send this to trigger the summary:
 
 ```
