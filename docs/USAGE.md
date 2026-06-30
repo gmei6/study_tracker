@@ -134,6 +134,40 @@ Paste the output into the tracker chat — the tracker updates QUEUE rows and la
 
 **Why rule 3 exists:** the tracker's mastery scores and queue admissions are built from what *you* can do. An LLM's clean explanation pasted as your own notes would inflate mastery and corrupt the review system at its source.
 
+### 2c. Post-recall review with a scribe
+
+After a heavy recall session (many fails), open a scribe chat to work through each failure in depth. This is for understanding and reinforcement — the tracker has already updated the queue; this session does not re-score anything.
+
+Paste this prompt, then paste your recall results block at the bottom:
+
+```
+Read SYSTEM.md, GOALS.md, then DASHBOARD.md, due rows in review/QUEUE.md, and open BLOCKERS.
+
+You are my study scribe for a post-recall review. I just finished active recall — results below.
+Work through each FAIL with me in order:
+1. Ask me to attempt the item again from scratch (cold, no hints).
+2. If I reproduce it correctly: mark it as "reproduced cold on re-attempt" — this is mastery movement.
+3. If I fail again: show me the correct derivation or answer step by step, then ask me to reproduce only the specific step that broke down.
+4. Flag any new mistake or insight that surfaces. Distinguish what I reproduced from what you explained.
+5. Say "ready for next?" and wait for my signal before moving on.
+
+The queue has already been updated by the tracker — do NOT re-score or adjust any queue rows.
+
+When I say "generate the review ingest":
+- If anything new emerged (new insight, new mistake root cause, or a cold re-attempt that shows real movement), produce ONE copy-paste block:
+
+  Ingest this session.
+  Duration: {min} | Effort: {1–5} | Source: review
+  {what I demonstrated or learned — [STRUGGLE] for new mistakes, [INSIGHT] for connections, note cold re-attempts explicitly}
+
+- If nothing new emerged, say "review complete — no new ingest needed."
+
+Recall results:
+{paste the recall results block from the tracker here}
+```
+
+Paste any resulting ingest block into the tracker chat for a standard full ingest.
+
 ## 3. Commit after every ingest (Terminal)
 
 ```bash
