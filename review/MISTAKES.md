@@ -11,7 +11,7 @@
 | ID | Date | Domain | What happened | Root cause | Recurrence | Sessions | Status |
 |---|---|---|---|---|---|---|---|
 | M-001 | 2026-06-12 | ANLY | Misread $\ln x^{\ln x}$ as $\ln(x^{\ln x})$ instead of $(\ln x)^{\ln x}$ | Notation ambiguity / inattentive reading | 1 | S-2026-06-12-1 | active |
-| M-002 | 2026-06-12 | ANLY | Forgot $\frac{1}{y}\frac{dy}{dx}$ on LHS during log diff; tried $e^{\ln y}$ in a circle | Incomplete implicit-diff setup — forgot chain rule on $\ln y$ | 1 | S-2026-06-12-1 | active |
+| M-002 | 2026-06-12 | ANLY | Forgot $\frac{1}{y}\frac{dy}{dx}$ on LHS during log diff; tried $e^{\ln y}$ in a circle | Incomplete implicit-diff setup — forgot chain rule on $\ln y$ | 2 | S-2026-06-12-1, review-2026-06-29 | active |
 | M-003 | 2026-06-12 | ANLY | Recalled $e \approx 1.2$ instead of $\approx 2.718$ | Weak constant recall | 1 | S-2026-06-12-1 | active |
 | M-004 | 2026-06-12 | ANLY | Integer approx ($e=2, \pi=3$) gave wrong inequality $\pi^e > e^\pi$ | Approximation error larger than actual gap; misleading heuristic | 1 | S-2026-06-12-1 | active |
 | M-005 | 2026-06-12 | ANLY | Drew $\ln x \to +\infty$ as $x \to 0^+$ (should be $-\infty$) | Wrong mental graph of $\ln x$ near zero | 1 | S-2026-06-12-1 | active |
@@ -42,9 +42,15 @@
 | M-029 | 2026-06-14 | LINALG | Second cube-root attempt: two sign errors cancelled — forgot $i^2=-1$ when computing $\omega^2$ (wrote $1/4+3/4=1$ instead of $1/4-3/4=-1/2$), then sign error in final multiply masked the first | Failed to apply $i^2=-1$; complex arithmetic sign tracking; getting the right answer via cancelling errors is a false pass | 1 | S-2026-06-14-4 | active |
 | M-030 | 2026-06-14 | LINALG | Square roots of $i$: left answer as $\pm\sqrt{i}$ and $\pm(-1)^{1/4}$ rather than standard $a+bi$ form | Stopped too early — task requires standard form; should apply T-020 (component equations) to complete; see T-020 | 1 | S-2026-06-14-4 | active |
 
+| M-031 | 2026-06-29 | ANLY | d/dx[tan x] via product rule: missed double-negative — $\frac{d}{dx}[\cos x]^{-1}$ gives $+\sin(x)/\cos^2(x)$; product-rule term should be $+\sin^2(x)/\cos^2(x)$, not negative | Double-negative sign tracking: power rule on $[\cos x]^{-1}$ yields one negative, $\cos'(x)$ yields another; negatives cancel to positive | 1 | review-2026-06-29 | active |
+| M-032 | 2026-06-29 | ANLY | d/dx[sec x]: got a negative result; correct is $+\sec(x)\tan(x)$ | Sign error propagated from M-031 double-negative slip in product-rule expansion | 1 | review-2026-06-29 | active |
+| M-033 | 2026-06-29 | ANLY | Log diff setup: set $y = \frac{d}{dx}[x^x]$ (the derivative) instead of $y = x^x$ (the function) before taking $\ln$ | Applied log differentiation to the wrong object — must first set $y = f(x)$, then take $\ln$ of both sides | 1 | review-2026-06-29 | active |
+| M-034 | 2026-06-29 | PROB | Stars-and-bars factorial: wrote $(n+k-1)!$ for the ordering step instead of $n!$ — conflated total slots in the formula with the number of distinct objects | Only $n$ objects are distinct; ordering factor is $n!$; $(n+k-1)$ counts total positions including "stars," not distinct elements | 1 | review-2026-06-29 | active |
+
 ## Recurrence Watchlist (count ≥ 2)
 
 | ID | Domain | Root cause | Count |
 |---|---|---|---|
+| M-002 | ANLY | Forgot chain rule on $\ln y$ in log diff LHS — implicit diff step skipped | 2 |
 | M-011 | ALGO | Mixed slice + index in recursive traversal; rule not internalized | 2 |
 | M-012 | ALGO | Incomplete wildcard base case — forgetting `curr.word` check at end of dot | 2 |

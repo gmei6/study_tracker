@@ -49,4 +49,4 @@ $$\int \frac{du}{1-u^2} = \frac{1}{2}\ln|1+u| - \frac{1}{2}\ln|1-u| + C$$
 
 ## Review
 
-- **Last review:** 2026-06-14 — fail (coefficient method not yet reproduced). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-29 — fail (wrong example used; wrong setup with both terms over same denominator; core mechanism not demonstrated). *(Full history: review/QUEUE.md Results column.)*

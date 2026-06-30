@@ -5,11 +5,11 @@
 
 ## Current Status
 
-- **Last Updated:** 2026-06-14 (v2.3)
-- **Phase:** Foundations & Core Theory
-- **Sessions logged:** 6
-- **Concepts:** 11 | **Techniques:** 9 | **Mistakes:** 30 | **Open blockers:** 0
-- **Review queue:** 12 due 2026-06-15; 4 due 2026-06-16; 3 due 2026-06-17
+- **Last Updated:** 2026-06-29 (v2.4)
+- **Phase:** 🟢 Active — returned from Kaggle "Orbit Wars" break
+- **Sessions logged:** 7 (incl. recall session 2026-06-29)
+- **Concepts:** 11 | **Techniques:** 9 | **Mistakes:** 34 | **Open blockers:** 0
+- **Review queue:** 13 due 2026-06-30; 4 overdue (C-ANLY-003, T-012, C-ANLY-004, T-016); 2 due 2026-07-06
 
 ## System Health
 
@@ -18,10 +18,10 @@
 | Indicator | Value | Status |
 |---|---|---|
 | Days since last session | 0 | 🟢 |
-| Sessions in last 7 days (target ≥ 5) | 6 | 🟢 |
-| Queue due count (trend) | 19 (↑) | 🟢 |
+| Sessions in last 7 days (target ≥ 5) | 1 | 🟡 |
+| Queue due count (trend) | 19 (↓ from peak — recalls done) | 🟢 |
 | Pending extractions | 0 | 🟢 |
-| Weeks since monthly review | 0 (baseline 2026-06-11) | 🟢 |
+| Weeks since monthly review | ~2.5 (next: 2026-07-11) | 🟢 |
 
 ## Domain Mastery
 
@@ -57,8 +57,8 @@
 
 ## Next Session Focus
 
-1. **Due recalls (2026-06-15):** 12 items (all P1) — by age: C-ALGO-002, T-014, C-ALGO-003, T-018, C-ANLY-005, T-017, C-PROB-001, T-015, C-LINALG-001, C-LINALG-002, T-019, T-020. Do before new material.
-2. Continue Green Book Calculus section (next problem after B).
+1. **Due recalls (2026-06-30):** 13 items (all failed 2026-06-29) + 4 overdue (C-ANLY-003, T-012, C-ANLY-004, T-016). Total = 17. Cap 15; prioritize overdue 4 first, then oldest fails.
+2. New material: LINALG — LADR Ch 1, Section 1B (after recalls clear).
 3. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
 
 ---

@@ -79,4 +79,4 @@ class Solution:
 
 ## Review
 
-- **Last review:** 2026-06-14 — fail (not yet reproduced). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-29 — fail (started DFS from (0,0) only; missing backtracking and pruning steps entirely). *(Full history: review/QUEUE.md Results column.)*

@@ -56,4 +56,4 @@ def dfs(board, i, j, ...):
 
 ## Review
 
-- **Last review:** 2026-06-14 — fail (not yet reproduced). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-29 — fail (unmark timing wrong — "after moving to next node" not "after recursive call returns"; why-unmark explanation too vague). *(Full history: review/QUEUE.md Results column.)*

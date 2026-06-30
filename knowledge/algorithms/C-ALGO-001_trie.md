@@ -56,4 +56,4 @@ def search(self, word):
 
 ## Review
 
-- **Last review:** 2026-06-13 — pass. *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-29 — pass (clean). *(Full history: review/QUEUE.md Results column.)*

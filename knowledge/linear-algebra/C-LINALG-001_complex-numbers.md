@@ -53,4 +53,4 @@ Equal by commutativity of $\mathbb{R}$. ✓
 
 ## Review
 
-- **Last review:** 2026-06-14 — fail. *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-29 — fail (associativity correct; inverse only showed x·(1/x)=1 tautology, never derived conjugate form). *(Full history: review/QUEUE.md Results column.)*
