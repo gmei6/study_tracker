@@ -43,4 +43,4 @@ $y = (\ln x)^{\ln x}$
 
 ## Review
 
-- **Last review:** 2026-06-13 — pass. *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — pass (derived perfectly for y=(ln x)^(ln x)). *(Full history: review/QUEUE.md Results column.)*

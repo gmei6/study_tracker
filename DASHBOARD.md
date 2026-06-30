@@ -5,11 +5,11 @@
 
 ## Current Status
 
-- **Last Updated:** 2026-06-29 (v2.4)
+- **Last Updated:** 2026-06-30 (v2.5)
 - **Phase:** 🟢 Active — returned from Kaggle "Orbit Wars" break
-- **Sessions logged:** 7 (incl. recall session 2026-06-29)
-- **Concepts:** 11 | **Techniques:** 9 | **Mistakes:** 34 | **Open blockers:** 0
-- **Review queue:** 13 due 2026-06-30; 4 overdue (C-ANLY-003, T-012, C-ANLY-004, T-016); 2 due 2026-07-06
+- **Sessions logged:** 8 (incl. recall session 2026-06-30)
+- **Concepts:** 11 | **Techniques:** 9 | **Mistakes:** 41 | **Open blockers:** 1
+- **Review queue:** 2 due 2026-06-30; 0 overdue; 8 due 2026-07-01; 5 due 2026-07-03; 2 due 2026-07-06; 2 due 2026-07-07
 
 ## System Health
 
@@ -18,8 +18,8 @@
 | Indicator | Value | Status |
 |---|---|---|
 | Days since last session | 0 | 🟢 |
-| Sessions in last 7 days (target ≥ 5) | 1 | 🟡 |
-| Queue due count (trend) | 19 (↓ from peak — recalls done) | 🟢 |
+| Sessions in last 7 days (target ≥ 5) | 2 | 🟡 |
+| Queue due count (trend) | 2 (↓ from peak — recalls done) | 🟢 |
 | Pending extractions | 0 | 🟢 |
 | Weeks since monthly review | ~2.5 (next: 2026-07-11) | 🟢 |
 
@@ -29,10 +29,10 @@
 
 | Domain | # Concepts | Avg mastery | # ≥ 4 | Open mistakes | Verdict |
 |---|---|---|---|---|---|
-| ANLY | 5 | 1.2 | 0 | 12 | Early — calculus toolkit building |
-| ALGO | 3 | 1.7 | 0 | 10 | Early — Trie cluster building |
-| PROB | 1 | 1.0 | 0 | 2 | Early — seeded (Putnam A-1) |
-| LINALG | 2 | 1.0 | 0 | 6 | Early — complex numbers seeded (1A) |
+| ANLY | 5 | 1.2 | 0 | 20 | Early — calculus toolkit building |
+| ALGO | 3 | 1.7 | 0 | 11 | Early — Trie cluster building |
+| PROB | 1 | 1.0 | 0 | 3 | Early — seeded (Putnam A-1) |
+| LINALG | 2 | 1.0 | 0 | 7 | Early — complex numbers seeded (1A) |
 
 ## Pending Extractions
 
@@ -57,9 +57,10 @@
 
 ## Next Session Focus
 
-1. **Due recalls (2026-06-30):** 13 items (all failed 2026-06-29) + 4 overdue (C-ANLY-003, T-012, C-ANLY-004, T-016). Total = 17. Cap 15; prioritize overdue 4 first, then oldest fails.
-2. New material: LINALG — LADR Ch 1, Section 1B (after recalls clear).
-3. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
+1. **Due recalls:** C-LINALG-001 and C-LINALG-002 are due (2026-06-30). Next batch of 8 items due 2026-07-01.
+2. **Resolve Blocker B-001:** Address Trie wildcard search base case and recursion bugs.
+3. **New material:** LINALG — LADR Ch 1, Section 1B (after recalls clear).
+4. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
 
 ---
 

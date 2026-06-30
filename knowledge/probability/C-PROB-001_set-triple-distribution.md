@@ -36,4 +36,4 @@ Element-by-element (T-015): the global constraints decompose independently per e
 
 ## Review
 
-- **Last review:** 2026-06-29 — fail (needed stars-and-bars hint; factorial conflation M-034; needed prompting to start). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — fail (needed element-by-element counting hint; see M-014). *(Full history: review/QUEUE.md Results column.)*

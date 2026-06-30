@@ -15,14 +15,14 @@
 | M-003 | 2026-06-12 | ANLY | Recalled $e \approx 1.2$ instead of $\approx 2.718$ | Weak constant recall | 1 | S-2026-06-12-1 | active |
 | M-004 | 2026-06-12 | ANLY | Integer approx ($e=2, \pi=3$) gave wrong inequality $\pi^e > e^\pi$ | Approximation error larger than actual gap; misleading heuristic | 1 | S-2026-06-12-1 | active |
 | M-005 | 2026-06-12 | ANLY | Drew $\ln x \to +\infty$ as $x \to 0^+$ (should be $-\infty$) | Wrong mental graph of $\ln x$ near zero | 1 | S-2026-06-12-1 | active |
-| M-006 | 2026-06-12 | ANLY | Rewrote $x^2\ln x$ as $x^2/\ln x$ for L'Hôpital (should be $\ln x / x^{-2}$) | Confused which factor to invert in $0\cdot\infty \to \infty/\infty$ conversion | 1 | S-2026-06-12-1 | active |
+| M-006 | 2026-06-12 | ANLY | Rewrote $x^2\ln x$ as $x^2/\ln x$ for L'Hôpital (should be $\ln x / x^{-2}$) | Confused which factor to invert in $0\cdot\infty \to \infty/\infty$ conversion | 2 | S-2026-06-12-1, review-2026-06-30 | active |
 | M-007 | 2026-06-12 | ANLY | Computed $\frac{2x}{1/x} = 2$ instead of $2x^2$ | Compound fraction arithmetic slip | 1 | S-2026-06-12-1 | active |
 | M-008 | 2026-06-13 | ANLY | L'Hôpital recall: stated $0/0$ and $\infty/\infty$ cases correctly but did not cover form-rewrite table ($0\cdot\infty$, $1^\infty$, $0^0$, $\infty^0$) or reproduce canonical problem 2 ($\lim_{x\to0^+}x^2\ln x$) | Scope of recall too narrow — internalized theorem statement only, not the extended forms or canonical application | 1 | review-2026-06-13 | active |
 | M-009 | 2026-06-13 | ALGO | Python string slicing direction backwards — thought `temp[:3]` gets last 3 chars; it's first 3 | Rusty Python slice semantics; `s[:k]` = first k chars, `s[k:]` = from index k onward | 1 | S-2026-06-13-1 | active |
 | M-010 | 2026-06-13 | ALGO | Non-dot else branch in recursive Trie search fell through to `return True` after advancing curr/index, without processing remaining chars | Missing check — else branch must either recurse or loop; cannot fall through | 1 | S-2026-06-13-1 | active |
 | M-011 | 2026-06-13 | ALGO | Passed `word[plus_one:]` (sliced string) AND `plus_one` as index into it — index was past the end of the shorter string | Mixed index advancement and slicing simultaneously; see T-014 | 2 | S-2026-06-13-1, review-2026-06-14 | active |
-| M-012 | 2026-06-13 | ALGO | Early `return True` when dot is last char (`index == len(word)-1`) skips checking `curr.word` — incorrectly matches paths that aren't complete words | Incomplete base case; must check `curr.word` even at end of wildcard | 2 | S-2026-06-13-1, review-2026-06-14 | active |
-| M-019 | 2026-06-14 | ALGO | Grid boundary check relied on implicit IndexError — Python negative indices wrap silently (`board[-1]` valid), so boundary violations went undetected | Must always check `0 <= i < m and 0 <= j < n` explicitly; see T-018 | 1 | S-2026-06-14-3 | active |
+| M-012 | 2026-06-13 | ALGO | Early `return True` when dot is last char (`index == len(word)-1`) skips checking `curr.word` — incorrectly matches paths that aren't complete words | Incomplete base case; must check `curr.word` even at end of wildcard | 3 | S-2026-06-13-1, review-2026-06-14, review-2026-06-30 | active |
+| M-019 | 2026-06-14 | ALGO | Grid boundary check relied on implicit IndexError — Python negative indices wrap silently (`board[-1]` valid), so boundary violations went undetected | Must always check `0 <= i < m and 0 <= j < n` explicitly; see T-018 | 2 | S-2026-06-14-3, review-2026-06-30 | active |
 | M-020 | 2026-06-14 | ALGO | `enumerate[board]` instead of `enumerate(board)` — used [] (indexing) instead of () (function call), causing TypeError | Syntax confusion: function calls use (), not [] | 1 | S-2026-06-14-3 | active |
 | M-021 | 2026-06-14 | ALGO | Grid DFS recursed on same cell (i, j) instead of neighbors (i±1, j±1) | Wrong recursive targets — DFS explores neighbors, not current cell | 1 | S-2026-06-14-3 | active |
 | M-022 | 2026-06-14 | ALGO | Missing `self.` prefix for recursive DFS method call inside class | Forgot Python class method call syntax in recursive context | 1 | S-2026-06-14-3 | active |
@@ -33,7 +33,7 @@
 | M-017 | 2026-06-14 | ANLY | Factored the constant 1/2 out of ∫du/(1−u) as 2 instead of 1/2 | Reciprocal constant arithmetic slip | 1 | S-2026-06-14-2 | active |
 | M-018 | 2026-06-14 | ANLY | Wrong evaluation order for FTC on −ln\|1−u\| term (sign/bound error) | Applied F(a)−F(b) instead of F(b)−F(a); negative from antiderivative compounded the confusion | 1 | S-2026-06-14-2 | active |
 | M-013 | 2026-06-14 | PROB | Applied stars-and-bars to a set-distribution problem where elements can appear in multiple sets — model assumes disjoint partition | Conflated "distributing elements into bins" with "partitioning" — stars-and-bars requires each element in exactly one bin | 1 | S-2026-06-14-1 | active |
-| M-014 | 2026-06-14 | PROB | After recognizing overlap, summed (y+2 choose 2)·y! over y=10..20 — hit prime factor 19 dead end | Missed element-independence; tried aggregating over configurations instead of multiplying per-element choices; see T-015 | 1 | S-2026-06-14-1 | active |
+| M-014 | 2026-06-14 | PROB | After recognizing overlap, summed (y+2 choose 2)·y! over y=10..20 — hit prime factor 19 dead end | Missed element-independence; tried aggregating over configurations instead of multiplying per-element choices; see T-015 | 2 | S-2026-06-14-1, review-2026-06-30 | active |
 | M-025 | 2026-06-14 | LINALG | Wrote addition formula $(a+bi)+(c+di)$ instead of multiplication $(a+bi)(c+di)$ when copying Definition 1.3 | Inattentive formula transcription — read "multiplication" but wrote the addition pattern | 1 | S-2026-06-14-4 | active |
 | M-026 | 2026-06-14 | LINALG | Wrote $i \in \mathbb{F}$ conflating imaginary unit $i=\sqrt{-1}$ with index variable $i \in \{1,\dots,n\}$ (Notation 1.6) | Symbol overloading — same letter $i$ carries two meanings; must read surrounding context to disambiguate | 1 | S-2026-06-14-4 | active |
 | M-027 | 2026-06-14 | LINALG | Wrote $n \in \mathbb{R}^+$ instead of $n \in \mathbb{Z}^+$ for list length in $\mathbb{F}^n$ | Type error — list length is a count (integer), not a measure (real); see C-LINALG-002 | 1 | S-2026-06-14-4 | active |
@@ -44,11 +44,21 @@
 | M-032 | 2026-06-29 | ANLY | d/dx[sec x]: got a negative result; correct is $+\sec(x)\tan(x)$ | Sign error propagated from M-031 double-negative slip in product-rule expansion | 1 | review-2026-06-29 | active |
 | M-033 | 2026-06-29 | ANLY | Log diff setup: set $y = \frac{d}{dx}[x^x]$ (the derivative) instead of $y = x^x$ (the function) before taking $\ln$ | Applied log differentiation to the wrong object — must first set $y = f(x)$, then take $\ln$ of both sides | 1 | review-2026-06-29 | active |
 | M-034 | 2026-06-29 | PROB | Stars-and-bars factorial: wrote $(n+k-1)!$ for the ordering step instead of $n!$ — conflated total slots in the formula with the number of distinct objects | Only $n$ objects are distinct; ordering factor is $n!$; $(n+k-1)$ counts total positions including "stars," not distinct elements | 1 | review-2026-06-29 | active |
+| M-035 | 2026-06-30 | ANLY | Computed derivative of -1/ln x as -1/(1/x) instead of 1/(x(ln x)^2) | Forgot chain rule when differentiating reciprocal log: d/dx[(ln x)^-1] = -(ln x)^-2 * (1/x) | 1 | review-2026-06-30 | active |
+| M-036 | 2026-06-30 | ANLY | Forgot the LIATE heuristic and function product trigger for IBP | Did not internalize the formal retrieval rule and structural triggers for selecting parts in IBP | 1 | review-2026-06-30 | active |
+| M-037 | 2026-06-30 | ALGO | Mixed while loop with recursion in Trie wildcard search, creating infinite loop risk | Confused recursion structure with iterative traversal loop in DFS | 1 | review-2026-06-30 | active |
+| M-038 | 2026-06-30 | ANLY | Did not know how to start the sec(x) integration; needed cos(x)/cos(x) hint | Forgot the algebraic preparation trick to set up substitution for sec(x) integral | 1 | review-2026-06-30 | active |
+| M-039 | 2026-06-30 | ANLY | Incorrectly stated PFD degree check as checking if degrees are equal (should be deg P < deg Q) | Weak recall of PFD prerequisite condition (improper fraction requires long division first) | 1 | review-2026-06-30 | active |
+| M-040 | 2026-06-30 | ANLY | Stated repeated linear factor requires x in numerator (instead of a term per power up to exponent) | Conflated repeated linear factor expansion rules with irreducible quadratic numerator rule (Ax+B) | 1 | review-2026-06-30 | active |
+| M-041 | 2026-06-30 | LINALG | Expanded (a+bi)(a-bi) as a^2 - b^2, forgetting i^2 = -1 | Conflated complex conjugate product with difference of real squares formula (x^2 - y^2) | 1 | review-2026-06-30 | active |
 
 ## Recurrence Watchlist (count ≥ 2)
 
 | ID | Domain | Root cause | Count |
 |---|---|---|---|
 | M-002 | ANLY | Forgot chain rule on $\ln y$ in log diff LHS — implicit diff step skipped | 2 |
+| M-006 | ANLY | Confused which factor to invert in $0\cdot\infty \to \infty/\infty$ conversion | 2 |
 | M-011 | ALGO | Mixed slice + index in recursive traversal; rule not internalized | 2 |
-| M-012 | ALGO | Incomplete wildcard base case — forgetting `curr.word` check at end of dot | 2 |
+| M-012 | ALGO | Incomplete wildcard base case — forgetting `curr.word` check at end of dot | 3 |
+| M-014 | PROB | Missed element-independence; tried aggregating over configurations instead of multiplying per-element choices | 2 |
+| M-019 | ALGO | Must always check `0 <= i < m and 0 <= j < n` explicitly; see T-018 | 2 |

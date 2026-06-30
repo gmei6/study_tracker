@@ -79,4 +79,4 @@ class Solution:
 
 ## Review
 
-- **Last review:** 2026-06-29 — fail (started DFS from (0,0) only; missing backtracking and pruning steps entirely). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — pass (perfectly explained Trie optimization, de-duplication, and backtracking). *(Full history: review/QUEUE.md Results column.)*

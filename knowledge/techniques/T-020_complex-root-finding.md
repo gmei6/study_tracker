@@ -43,4 +43,4 @@ Find $w = a+bi$ with $w^2 = i$:
 
 ## Review
 
-- **Last review:** 2026-06-29 — fail (approach reversed — worked from z side not w side; no expansion of w^n; no real system setup). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — pass (solved w^2 = i perfectly using component equations). *(Full history: review/QUEUE.md Results column.)*

@@ -45,4 +45,4 @@ $$\frac{1}{2}\ln\frac{3/2}{1/2} - \frac{1}{2}\ln\frac{1}{1} = \frac{1}{2}\ln 3$$
 
 ## Review
 
-- **Last review:** 2026-06-29 — fail (sign errors on d/dx[tan x] and d/dx[sec x]; reached answer only with repeated guidance; see M-031, M-032). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — fail (needed cos(x)/cos(x) hint to start; see M-038). *(Full history: review/QUEUE.md Results column.)*

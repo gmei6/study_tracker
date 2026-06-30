@@ -38,4 +38,4 @@ Ordered triples (A1, A2, A3) with A1∪A2∪A3 = {1,...,10}, A1∩A2∩A3 = ∅.
 
 ## Review
 
-- **Last review:** 2026-06-29 — fail (described n!/ordering rather than (choices per element)^n; core mechanism wrong). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — pass (correctly explained why stars-and-bars fails due to set overlap). *(Full history: review/QUEUE.md Results column.)*

@@ -44,4 +44,4 @@ Near an indeterminate point, the ratio $f/g$ behaves like the ratio of their lin
 
 ## Review
 
-- **Last review:** 2026-06-14 — pass. *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — fail (forgot chain rule on -1/ln x derivative; see M-006, M-035). *(Full history: review/QUEUE.md Results column.)*

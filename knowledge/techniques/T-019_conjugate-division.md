@@ -42,4 +42,4 @@ For general division $\alpha/\beta$: multiply both by $\bar\beta$.
 
 ## Review
 
-- **Last review:** 2026-06-29 — fail (derivation correct but formula not cold — stated by scribe earlier in session when scoring C-LINALG-001). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — fail (expanded denominator conjugate product as a^2 - b^2, forgetting i^2 = -1; see M-041). *(Full history: review/QUEUE.md Results column.)*

@@ -50,4 +50,4 @@ def search(self, word):
 
 ## Review
 
-- **Last review:** 2026-06-29 — fail (core ideas present but needed prompting for function signature and base case; not cold). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-06-30 — fail (mixed while loop with recursion, infinite loop risk, early base case check; see M-012, M-037; B-001). *(Full history: review/QUEUE.md Results column.)*
