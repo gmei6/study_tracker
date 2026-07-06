@@ -38,4 +38,4 @@ Ordered triples (A1, A2, A3) with A1∪A2∪A3 = {1,...,10}, A1∩A2∩A3 = ∅.
 
 ## Review
 
-- **Last review:** 2026-06-30 — pass (correctly explained why stars-and-bars fails due to set overlap). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-07-05 — pass (perfectly stated the independence signal, the 3-step x^n method, and the stars-and-bars trap). *(Full history: review/QUEUE.md Results column.)*

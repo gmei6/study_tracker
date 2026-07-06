@@ -48,9 +48,12 @@
 | M-036 | 2026-06-30 | ANLY | Forgot the LIATE heuristic and function product trigger for IBP | Did not internalize the formal retrieval rule and structural triggers for selecting parts in IBP | 1 | review-2026-06-30 | active |
 | M-037 | 2026-06-30 | ALGO | Mixed while loop with recursion in Trie wildcard search, creating infinite loop risk | Confused recursion structure with iterative traversal loop in DFS | 1 | review-2026-06-30 | active |
 | M-038 | 2026-06-30 | ANLY | Did not know how to start the sec(x) integration; needed cos(x)/cos(x) hint | Forgot the algebraic preparation trick to set up substitution for sec(x) integral | 1 | review-2026-06-30 | active |
-| M-039 | 2026-06-30 | ANLY | Incorrectly stated PFD degree check as checking if degrees are equal (should be deg P < deg Q) | Weak recall of PFD prerequisite condition (improper fraction requires long division first) | 1 | review-2026-06-30 | active |
-| M-040 | 2026-06-30 | ANLY | Stated repeated linear factor requires x in numerator (instead of a term per power up to exponent) | Conflated repeated linear factor expansion rules with irreducible quadratic numerator rule (Ax+B) | 1 | review-2026-06-30 | active |
+| M-039 | 2026-06-30 | ANLY | Incorrectly stated PFD degree check as checking if degrees are equal (should be deg P < deg Q) | Weak recall of PFD prerequisite condition (improper fraction requires long division first) | 2 | review-2026-06-30, review-2026-07-05 | active |
+| M-040 | 2026-06-30 | ANLY | Stated repeated linear factor requires x in numerator (instead of a term per power up to exponent) | Conflated repeated linear factor expansion rules with irreducible quadratic numerator rule (Ax+B) | 2 | review-2026-06-30, review-2026-07-05 | active |
 | M-041 | 2026-06-30 | LINALG | Expanded (a+bi)(a-bi) as a^2 - b^2, forgetting i^2 = -1 | Conflated complex conjugate product with difference of real squares formula (x^2 - y^2) | 1 | review-2026-06-30 | active |
+| M-042 | 2026-07-05 | ANLY | Subtracted logarithms as $\ln(a-b)$ instead of dividing arguments $\ln(a/b)$ | Logarithm quotient property confusion | 1 | review-2026-07-05 | active |
+| M-043 | 2026-07-05 | LINALG | Expanded $(a+b)^2 = a^2 + b^2$, missing the middle term $2ab$ | Binomial expansion slip / freshman's dream | 1 | review-2026-07-05 | active |
+| M-044 | 2026-07-05 | ALGO | Assumed DFS backtracking step prevents reuse of a cell on the *same* path, rather than freeing it for *other* distinct paths | Misunderstanding of DFS recursion tree state isolation | 1 | review-2026-07-05 | active |
 
 ## Recurrence Watchlist (count ≥ 2)
 
@@ -62,3 +65,10 @@
 | M-012 | ALGO | Incomplete wildcard base case — forgetting `curr.word` check at end of dot | 3 |
 | M-014 | PROB | Missed element-independence; tried aggregating over configurations instead of multiplying per-element choices | 2 |
 | M-019 | ALGO | Must always check `0 <= i < m and 0 <= j < n` explicitly; see T-018 | 2 |
+| M-039 | ANLY | Weak recall of PFD prerequisite condition (improper fraction requires long division first) | 2 |
+| M-040 | ANLY | Conflated repeated linear factor expansion rules with irreducible quadratic numerator rule (Ax+B) | 2 |
+| M-045 | 2026-07-06 | ANLY | Forgot g'(x) != 0 condition for L'Hôpital and added arbitrary negative sign to ln(x) converting to quotient form | Incomplete theorem retrieval; sign tracking error in exponentiation/log conversion | 1 | review-2026-07-06 | active |
+| M-046 | 2026-07-06 | ANLY | Wrote $e^e > \pi^\pi$ instead of $e^{1/e} > \pi^{1/\pi}$ | Typo in final proof step; lost track of exponent terms | 1 | review-2026-07-06 | active |
+| M-047 | 2026-07-06 | ALGO | Referenced rootNode instead of curr during traversal, and manual while-loop index increment caused IndexError | Variable shadowing/referencing error and risky manual index tracking instead of `for char in word` | 1 | review-2026-07-06 | active |
+| M-048 | 2026-07-06 | ANLY | IBP trigger definition missing the "no basic substitution simplifies it" condition | Partial heuristic retrieval (missed exclusion condition) | 1 | review-2026-07-06 | active |
+| M-049 | 2026-07-06 | ALGO | Rebound board variable instead of restoring mutated cell for backtracking, and premature return in branch | Misunderstanding Python list mutation (rebinding doesn't revert) and recursive DFS structure; see M-023 | 1 | review-2026-07-06 | active |

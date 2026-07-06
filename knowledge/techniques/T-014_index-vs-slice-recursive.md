@@ -46,4 +46,4 @@ return recursive_search(word[1:], 0, child)
 
 ## Review
 
-- **Last review:** 2026-06-30 — pass (correctly identified slicing is O(n) while index is O(1) in Python). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-07-05 — pass (correctly identified string immutability/re-allocation cost of slicing vs O(1) index, and the double-skip bug from mixing them). *(Full history: review/QUEUE.md Results column.)*
