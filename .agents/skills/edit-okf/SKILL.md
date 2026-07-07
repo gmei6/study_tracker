@@ -27,8 +27,9 @@ sequence — never confuse the two.
      `mutability: append-only`, `timestamp`, optional `tags`. It holds the full narrative of the
      session's structural changes. (This is the successor of `docs/ARCHITECTURE_CHANGELOG.md`:
      date, reason, files affected, expected benefit — keep recording those.)
-   - `okf/log.md`: Reserved changelog. One line per session, newest first, each linking to its
-     `changes/s-NNN.md` file. Never holds full narrative text itself.
+   - `okf/log.md`: Reserved changelog. One line per session, chronological (oldest first, newest
+     appended at the bottom via `append_okf.py`), each linking to its `changes/s-NNN.md` file.
+     Never holds full narrative text itself.
 
 2. **Respect Mutability Frontmatter**:
    - `mutability: frozen`: Requires a decision file (`decisions/d-NNN.md`) explaining the change

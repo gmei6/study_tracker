@@ -5,7 +5,7 @@
 > with zero information loss, into the `okf/` knowledge bundle, and new structural changes are
 > recorded there.
 
-- **Session history (one line each, newest first):** [`okf/log.md`](../okf/log.md)
+- **Session history (one line each, chronological / newest last):** [`okf/log.md`](../okf/log.md)
 - **Full entries (verbatim):** [`okf/changes/`](../okf/changes/index.md) — entry-by-entry mapping
   in [`okf/changes/s-010-okf-migration.md`](../okf/changes/s-010-okf-migration.md)
 - **Architecture decisions:** [`okf/decisions/`](../okf/decisions/index.md)

@@ -33,7 +33,7 @@ repo is committed in a consistent state.
    - Append one `okf/changes/s-NNN-short-slug.md` (next sequential NNN) with the narrative:
      date, reason, files affected, expected benefit, reversibility. Frontmatter
      `type: Session Change`, `mutability: append-only`, `timestamp`.
-   - Add its one-line entry to `okf/log.md` (newest first).
+   - Add its one-line entry to `okf/log.md` (chronological: appended at the bottom, newest last).
    - If a direction-setting decision was made, also append `okf/decisions/d-NNN-short-slug.md`
      and link it from the affected files.
    - **CRITICAL**: never use text-editing tools on append-only files; create/append them only
