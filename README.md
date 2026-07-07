@@ -25,7 +25,9 @@ flowchart TB
 | `SYSTEM.md` | **Read first.** Architecture, ID scheme, ingest protocols, worked example |
 | `DASHBOARD.md` | 2-minute status: health lights, domain mastery, resume positions |
 | `GOALS.md` | Dec 2027 outcomes, back-cast milestones, pace floors (≥10h / ≥5 sessions per week) |
-| `docs/` | Reference docs: `USAGE.md` (exact prompts & commands), `ARCHITECTURE_CHANGELOG.md` (append-only record of every structural change, v2.0 → current) |
+| `okf/` | Structural/meta memory (OKF knowledge bundle): architecture decisions, structural change records, one-line session log, live project state. Start at `okf/index.md` |
+| `.agents/skills/` | Project skills for Claude Code (`session-start`, `session-wrapup`, `edit-okf`); `.claude/skills` symlinks here. Other AIs use the raw prompts in `docs/USAGE.md` |
+| `docs/` | Reference docs: `USAGE.md` (exact prompts & commands), `ARCHITECTURE_CHANGELOG.md` (retired → migrated to `okf/`; redirect stub) |
 | `docs/textbooks/` | Source textbooks — `pdf_version/` (Green Book, *Linear Algebra Done Right* 4th ed., *Introduction to Stochastic Processes* 2nd ed.) · `md_version/` (converted MD versions, created lazily) |
 | `study_logs/` | Event layer — one append-only log per *source* (Green Book, Leetcode, …) |
 | `knowledge/` | Knowledge layer — one file per concept, organized by *domain*; typed edges; `techniques/` for proof techniques; `CONNECTIONS.md` for cross-domain links |
@@ -45,4 +47,4 @@ Exact prompts and commands: **[docs/USAGE.md](docs/USAGE.md)**. The short versio
 
 ## Invariants
 
-Logs are append-only; mistakes are never deleted; one concept, one file, referenced by ID; counters derived, never stored; review history lives in QUEUE.md only; structural changes go through the changelog; no fabricated data — metrics reflect logged work only.
+Logs are append-only; mistakes are never deleted; one concept, one file, referenced by ID; counters derived, never stored; review history lives in QUEUE.md only; structural changes are recorded in `okf/` (changes + log, decisions when direction changes); no fabricated data — metrics reflect logged work only.
