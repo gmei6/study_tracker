@@ -50,4 +50,4 @@ def search(self, word):
 
 ## Review
 
-- **Last review:** 2026-06-30 — fail (mixed while loop with recursion, infinite loop risk, early base case check; see M-012, M-037; B-001). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-07-05 — pass (fixed structure, removed while loop, correct base case index. Minor typos: char.children instead of curr.children. Prose trace misunderstood why base case returns True, but code was correct). *(Full history: review/QUEUE.md Results column.)*

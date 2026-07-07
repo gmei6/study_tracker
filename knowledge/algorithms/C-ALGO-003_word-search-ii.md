@@ -79,4 +79,4 @@ class Solution:
 
 ## Review
 
-- **Last review:** 2026-06-30 — pass (perfectly explained Trie optimization, de-duplication, and backtracking). *(Full history: review/QUEUE.md Results column.)*
+- **Last review:** 2026-07-05 — pass (conceptually grasped Trie pruning, setting node.word to None for deduplication, and checking hashmap for pruning). *(Full history: review/QUEUE.md Results column.)*

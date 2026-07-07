@@ -5,11 +5,11 @@
 
 ## Current Status
 
-- **Last Updated:** 2026-06-30 (v2.5)
+- **Last Updated:** 2026-07-06 (v2.7)
 - **Phase:** 🟢 Active — returned from Kaggle "Orbit Wars" break
-- **Sessions logged:** 8 (incl. recall session 2026-06-30)
-- **Concepts:** 11 | **Techniques:** 9 | **Mistakes:** 41 | **Open blockers:** 1
-- **Review queue:** 2 due 2026-06-30; 0 overdue; 8 due 2026-07-01; 5 due 2026-07-03; 2 due 2026-07-06; 2 due 2026-07-07
+- **Sessions logged:** 10 (incl. recall session 2026-07-06)
+- **Concepts:** 11 | **Techniques:** 9 | **Mistakes:** 49 | **Open blockers:** 0
+- **Review queue:** 0 overdue; 0 due today; 6 due 2026-07-07; 3 due 2026-07-08; 5 due 2026-07-09; 3 due 2026-07-12; 1 due 2026-07-13; 1 due 2026-07-26
 
 ## System Health
 
@@ -18,10 +18,10 @@
 | Indicator | Value | Status |
 |---|---|---|
 | Days since last session | 0 | 🟢 |
-| Sessions in last 7 days (target ≥ 5) | 2 | 🟡 |
-| Queue due count (trend) | 2 (↓ from peak — recalls done) | 🟢 |
+| Sessions in last 7 days (target ≥ 5) | 4 | 🟡 |
+| Queue due count (trend) | 0 (↓) | 🟢 |
 | Pending extractions | 0 | 🟢 |
-| Weeks since monthly review | ~2.5 (next: 2026-07-11) | 🟢 |
+| Weeks since monthly review | ~3 (next: 2026-07-11) | 🟢 |
 
 ## Domain Mastery
 
@@ -29,10 +29,10 @@
 
 | Domain | # Concepts | Avg mastery | # ≥ 4 | Open mistakes | Verdict |
 |---|---|---|---|---|---|
-| ANLY | 5 | 1.2 | 0 | 20 | Early — calculus toolkit building |
-| ALGO | 3 | 1.7 | 0 | 11 | Early — Trie cluster building |
+| ANLY | 5 | 1.2 | 0 | 24 | Early — calculus toolkit building |
+| ALGO | 3 | 1.7 | 0 | 14 | Early — Trie cluster building |
 | PROB | 1 | 1.0 | 0 | 3 | Early — seeded (Putnam A-1) |
-| LINALG | 2 | 1.0 | 0 | 7 | Early — complex numbers seeded (1A) |
+| LINALG | 2 | 1.0 | 0 | 8 | Early — complex numbers seeded (1A) |
 
 ## Pending Extractions
 
@@ -57,10 +57,8 @@
 
 ## Next Session Focus
 
-1. **Due recalls:** C-LINALG-001 and C-LINALG-002 are due (2026-06-30). Next batch of 8 items due 2026-07-01.
-2. **Resolve Blocker B-001:** Address Trie wildcard search base case and recursion bugs.
-3. **New material:** LINALG — LADR Ch 1, Section 1B (after recalls clear).
-4. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
+1. **New material:** LINALG — LADR Ch 1, Section 1B (after recalls clear).
+2. Fill in `GOALS.md` placeholders (GRE date, target programs/firms).
 
 ---
 

@@ -18,25 +18,25 @@ Enter only if (a) failed active recall, or (b) priority 1–2. Priority: **1** =
 
 | Item | Refers to | Priority | Added | Rung | Next due | Streak | Results |
 |---|---|---|---|---|---|---|---|
-| L'Hôpital's rule — indeterminate forms | C-ANLY-003 | 1 | 2026-06-12 | 1d | 2026-07-01 | 0 | F·F·P·F |
+| L'Hôpital's rule — indeterminate forms | C-ANLY-003 | 1 | 2026-06-12 | 1d | 2026-07-07 | 0 | F·F·P·F·F·F |
 | Logarithmic differentiation (technique) | T-012 | 1 | 2026-06-12 | 7d | 2026-07-07 | 2 | F·P·P |
-| Logarithmic differentiation | C-ANLY-001 | 1 | 2026-06-12 | 3d | 2026-07-03 | 1 | F·P·F·P |
-| $e^\pi$ vs $\pi^e$ via $f(x)=x^{1/x}$ | C-ANLY-002 | 1 | 2026-06-12 | 7d | 2026-07-06 | 2 | F·P·P |
-| Trie — basic structure + addWord | C-ALGO-001 | 1 | 2026-06-13 | 7d | 2026-07-06 | 2 | P·P |
-| Trie wildcard search — recursive_search | C-ALGO-002 | 1 | 2026-06-13 | 1d | 2026-07-01 | 0 | F·F·F·F |
-| Index vs. slice in recursive traversal | T-014 | 1 | 2026-06-13 | 3d | 2026-07-03 | 1 | F·F·F·P |
-| ∫ln(x) dx — IBP setup and result | C-ANLY-004 | 1 | 2026-06-14 | 7d | 2026-07-07 | 2 | P·P |
-| ∫sec(x) dx — substitution + partial fractions | C-ANLY-005 | 1 | 2026-06-14 | 1d | 2026-07-01 | 0 | F·F·F |
-| Integration by parts (IBP) | T-016 | 1 | 2026-06-14 | 1d | 2026-07-01 | 0 | P·F |
-| Partial fraction decomposition | T-017 | 1 | 2026-06-14 | 1d | 2026-07-01 | 0 | F·F·F |
-| Ordered set k-tuple distribution | C-PROB-001 | 1 | 2026-06-14 | 1d | 2026-07-01 | 0 | F·F·F |
-| Element-by-element independent counting | T-015 | 1 | 2026-06-14 | 1d | 2026-07-03 | 1 | F·F·P |
-| Word Search II — Trie + Grid DFS | C-ALGO-003 | 1 | 2026-06-14 | 3d | 2026-07-03 | 1 | F·F·P |
-| Grid DFS with backtracking | T-018 | 1 | 2026-06-14 | 1d | 2026-07-01 | 0 | F·F·F |
-| Conjugate division — $(a+bi)^{-1}$ to standard form | T-019 | 1 | 2026-06-14 | 1d | 2026-07-01 | 0 | F·F·F |
-| Complex root-finding — solve $(a+bi)^n = z$ componentwise | T-020 | 1 | 2026-06-14 | 3d | 2026-07-03 | 1 | F·F·P |
-| Complex numbers — multiplicative inverse & associativity proof | C-LINALG-001 | 1 | 2026-06-14 | 1d | 2026-06-30 | 0 | F·F |
-| Lists and $\mathbb{F}^n$ — definition, integer dimension | C-LINALG-002 | 1 | 2026-06-14 | 1d | 2026-06-30 | 0 | F·F |
+| Logarithmic differentiation | C-ANLY-001 | 1 | 2026-06-12 | 7d | 2026-07-13 | 2 | F·P·F·P·P |
+| $e^\pi$ vs $\pi^e$ via $f(x)=x^{1/x}$ | C-ANLY-002 | 1 | 2026-06-12 | 1d | 2026-07-07 | 0 | F·P·P·F |
+| Trie — basic structure + addWord | C-ALGO-001 | 1 | 2026-06-13 | 1d | 2026-07-07 | 0 | P·P·F |
+| Trie wildcard search — recursive_search | C-ALGO-002 | 1 | 2026-06-13 | 3d | 2026-07-08 | 1 | F·F·F·F·P |
+| Index vs. slice in recursive traversal | T-014 | 1 | 2026-06-13 | 7d | 2026-07-12 | 2 | F·F·F·P·P |
+| ∫ln(x) dx — IBP setup and result | C-ANLY-004 | 1 | 2026-06-14 | 21d | 2026-07-26 | 3 | P·P·P |
+| ∫sec(x) dx — substitution + partial fractions | C-ANLY-005 | 1 | 2026-06-14 | 3d | 2026-07-09 | 1 | F·F·F·F·P |
+| Integration by parts (IBP) | T-016 | 1 | 2026-06-14 | 1d | 2026-07-07 | 0 | P·F·F·F |
+| Partial fraction decomposition | T-017 | 1 | 2026-06-14 | 3d | 2026-07-09 | 1 | F·F·F·F·P |
+| Ordered set k-tuple distribution | C-PROB-001 | 1 | 2026-06-14 | 3d | 2026-07-09 | 1 | F·F·F·F·P |
+| Element-by-element independent counting | T-015 | 1 | 2026-06-14 | 3d | 2026-07-08 | 2 | F·F·P·P |
+| Word Search II — Trie + Grid DFS | C-ALGO-003 | 1 | 2026-06-14 | 7d | 2026-07-12 | 2 | F·F·P·P |
+| Grid DFS with backtracking | T-018 | 1 | 2026-06-14 | 1d | 2026-07-07 | 0 | F·F·F·F·F |
+| Conjugate division — $(a+bi)^{-1}$ to standard form | T-019 | 1 | 2026-06-14 | 3d | 2026-07-09 | 1 | F·F·F·F·P |
+| Complex root-finding — solve $(a+bi)^n = z$ componentwise | T-020 | 1 | 2026-06-14 | 7d | 2026-07-12 | 2 | F·F·P·P |
+| Complex numbers — multiplicative inverse & associativity proof | C-LINALG-001 | 1 | 2026-06-14 | 3d | 2026-07-08 | 1 | F·F·P |
+| Lists and $\mathbb{F}^n$ — definition, integer dimension | C-LINALG-002 | 1 | 2026-06-14 | 3d | 2026-07-09 | 1 | F·F·F·P |
 
 ## Graduated (≥ 60d; never deleted)
 
