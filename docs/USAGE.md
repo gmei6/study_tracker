@@ -1,8 +1,34 @@
 # USAGE.md — Exact Commands & Prompts
 
 > Copy-paste playbook. Two kinds of "commands": **prompts** you give the AI (in a chat with the study_tracker folder selected) and **git commands** you run in Terminal. Nothing else is required.
+>
+> **Using Claude Code?** The project skills in `.agents/skills/` replace the hand-pasted prompts marked with a 🧩 note below: say "start a session" (→ `session-start`) or "wrap up" (→ `session-wrapup`) and the skill runs the same protocol. The raw prompts stay here on purpose — the scribe workflow (§2b/§2c) and every prompt block work with **any** LLM.
+
+**Sections:** [§0 The cycle](#0-the-study-cycle-at-a-glance) · [§1 Session start](#1-start-a-study-session-new-chat) · [§2 Ingest](#2-ingest-after-studying-the-core-loop) (2b [scribe](#2b-studying-with-a-separate-llm-make-it-your-scribe), 2c [post-recall review](#2c-post-recall-review-with-a-scribe)) · [§3 Commit](#3-commit-after-every-ingest-terminal) · [§4 Periodic reviews](#4-periodic-reviews) · [§5 Other situations](#5-other-situations) · [§6 Honesty rules](#6-rules-that-keep-the-system-honest)
+
+## 0. The study cycle at a glance
+
+How the pieces below chain together across a study cycle. (The *data-flow* view — which files feed which — is the diagram in `README.md`; this is the *usage* view: what you do, in order.)
+
+```mermaid
+flowchart TD
+    A["§1 Session start<br/>health → due queue → open blockers<br/>🧩 Claude: session-start skill"]
+    A --> B["Due recalls FIRST<br/><i>from memory · priority then age · cap 15<br/>41+ due = emergency, no new material</i>"]
+    B --> C["Study new material<br/><i>at the largest mastery-vs-goals gap<br/>solo, or with a scribe LLM (§2b)</i>"]
+    C --> D{"§2 Ingest"}
+    D -->|default| E["Full Ingest<br/><i>log → concepts → mistakes →<br/>queue → indexes → DASHBOARD/GOALS</i>"]
+    D -->|time-pressed| F["Quick Ingest<br/><i>[PENDING_EXTRACT] — clear before the new week</i>"]
+    F -.->|"process pending extractions"| E
+    E --> G["§3 Commit & push<br/><i>S-YYYY-MM-DD-n: topic</i><br/>🧩 Claude: session-wrapup skill runs §2 + §3"]
+    G -->|"next session"| A
+    G -->|"week boundary"| H["§4 Weekly snapshot<br/><i>review/SNAPSHOTS.md + pace check</i>"]
+    H -->|"date in GOALS.md"| I["§4 Monthly review<br/><i>metrics vs targets · milestone log</i>"]
+    I -.->|"quarterly: recalibrate thresholds & milestones"| A
+```
 
 ## 1. Start a study session (new chat)
+
+*🧩 Claude Code: the `session-start` skill does this — just say "start a session". Any other AI: paste the prompt.*
 
 Select the study_tracker folder, then paste:
 
@@ -39,7 +65,11 @@ The AI runs Full Ingest per SYSTEM.md (log → concepts/techniques → mistakes 
 Process all pending extractions from DASHBOARD.
 ```
 
+*🧩 Claude Code: the `session-wrapup` skill runs the ingest, updates the okf/ live state if anything structural changed, and commits (§3) — say "wrap up the session" with your raw notes.*
+
 ### 2b. Studying with a separate LLM? Make it your scribe
+
+*This workflow is deliberately AI-agnostic — it is how any non-Claude LLM (a tutoring chat, a different model) feeds the tracker without losing data in translation.*
 
 If you study alongside a different AI (tutoring, working problems), paste this **at the start** of that session. It makes that AI compile the ingest message for you, so nothing is lost in translation:
 
@@ -175,7 +205,7 @@ cd ~/Downloads/study_tracker
 git add -A && git commit -m "S-YYYY-MM-DD-n: {topic}" && git push
 ```
 
-Architecture changes use `arch: {what}` as the message. Never force-push.
+Architecture changes use `arch: {what}` as the message — and are recorded in `okf/` (a `changes/s-NNN.md` + `log.md` line; see `.agents/skills/edit-okf/SKILL.md`). Never force-push.
 
 ## 4. Periodic reviews
 
@@ -208,7 +238,7 @@ Commit reviews too: `git commit -m "arch: monthly review YYYY-MM"`.
 | Research idea struck | `Log research idea: {one line, origin}` → R-ID |
 | Met/emailed a contact | `Update CONTACTS: {name, what happened, next action + date}` |
 | Queue feels overloaded | `Check overflow thresholds and tell me which mode we're in` |
-| Changing the system itself | `Propose this as an architecture change` → changelog entry first |
+| Changing the system itself | `Propose this as an architecture change` → okf/ decision + change record first (🧩 Claude: `edit-okf` skill) |
 
 ## 6. Rules that keep the system honest
 

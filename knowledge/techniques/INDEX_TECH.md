@@ -2,7 +2,7 @@
 
 > Cross-cutting proof techniques (`T-` IDs). A concept is not mastered at 4+ unless its proof technique can be deployed from scratch. Techniques enter the review queue like concepts.
 >
-> **ID reservations (v2.3):** T-001…T-011 are pre-registered below so concept files can link to them from session 1. Files are still created lazily — at the first *real* encounter with the technique (per v2.1 lazy-creation rule). A reserved row has no file, no mastery, and makes no knowledge claims. Next new ID = 015.
+> **ID reservations (v2.3):** T-001…T-011 are pre-registered below so concept files can link to them from session 1. Files are still created lazily — at the first *real* encounter with the technique (per v2.1 lazy-creation rule). A reserved row has no file, no mastery, and makes no knowledge claims. Next new ID = highest ID in the table + 1 (derived, never stored — a stored "next new ID" note here had already gone stale once).
 
 | ID | Technique | File | Mastery | Used in (C-IDs) |
 |---|---|---|---|---|

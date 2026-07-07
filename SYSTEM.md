@@ -1,4 +1,4 @@
-# SYSTEM.md — How the Quant Tracker Works (v2.2)
+# SYSTEM.md — How the Quant Tracker Works (v2.4)
 
 > Read this first in any new session. Architecture, ID scheme, ingest protocols, worked example, periodic reviews.
 
@@ -10,6 +10,8 @@ Two layers plus supporting systems:
 2. **Knowledge layer** — `knowledge/` — one file per concept (by *domain*) and per proof technique (`knowledge/techniques/`). What's true. Updated in place.
 
 Supporting: `review/` (queue, mistakes, blockers, snapshots), `interview/` (question bank, drills, firm profiles), `research/` (papers, ideas, contacts), `docs/textbooks/` (source textbooks: `pdf_version/` for PDFs, `md_version/` for converted MD versions — each in its own subfolder containing `{name}.md`, `{name}_meta.json`, and `_page_*_*.jpeg` images; see `docs/textbooks/md_version/INDEX.md`), `DASHBOARD.md` (status + health), `GOALS.md` (milestones + metrics), `knowledge/CONNECTIONS.md` (cross-domain registry).
+
+Structural/meta memory: `okf/` — architecture decisions (`okf/decisions/`), structural change records (`okf/changes/` + `okf/log.md`), and live project-level state (`okf/status.md`, etc.). It points at the operational files above and never re-homes study data; start at `okf/index.md`. Conventions are enforced by the project skills in `.agents/skills/` (`session-start`, `session-wrapup`, `edit-okf`; Claude Code loads them via `.claude/skills` — other AIs use the raw prompts in `docs/USAGE.md`).
 
 **Core rule:** every update is O(new information). Never reread entire logs to update state.
 
@@ -44,6 +46,8 @@ Domain codes: `PROB`, `LINALG`, `STOCH`, `ANLY`, `ALGO`, `STAT`, `OPT`, `NUMER`,
 ```
 
 ## Ingest Protocols
+
+*(Claude Code: the `session-wrapup` skill runs the ingest, OKF live-state update, and commit as one end-of-session flow.)*
 
 ### Full Ingest (default)
 
@@ -85,6 +89,8 @@ First real session: do exactly this.
 
 ## Session Start Protocol
 
+*(Claude Code: the `session-start` skill runs this protocol, loading context via one script call.)*
+
 1. Read `DASHBOARD.md` (health first), due QUEUE rows, open BLOCKERS.
 2. Due recalls *before* new material — priority then age, cap 15. Check overflow thresholds (QUEUE.md): 41+ due = emergency, no new material.
 3. **Study recommendation:** largest gap between Domain Mastery and GOALS metrics; within domain, next concept by prereq ordering. Bias against comfortable domains.
@@ -113,7 +119,7 @@ Concrete next-due dates live in GOALS.md § Review Schedule. A review that isn't
 
 ## Version Control
 
-Repo should be a git repo (`git init` once, manually). Commit after every ingest: `S-YYYY-MM-DD-n: {topic}`; architecture changes: `arch: {what}`. Never force-push. `.gitignore` covers OS noise. Git is the real reversibility guarantee; the changelog is the human-readable layer.
+Repo should be a git repo (`git init` once, manually). Commit after every ingest: `S-YYYY-MM-DD-n: {topic}`; architecture changes: `arch: {what}`. Never force-push. `.gitignore` covers OS noise. Git is the real reversibility guarantee; `okf/` (changes + log) is the human-readable layer.
 
 ## Tag Vocabulary
 
@@ -123,7 +129,7 @@ Repo should be a git repo (`git init` once, manually). Commit after every ingest
 
 - `study_logs/` append-only. Historical knowledge is sacred.
 - Mistakes/blockers never deleted — status changes only.
-- Structural changes → `docs/ARCHITECTURE_CHANGELOG.md`, reversible.
+- Structural changes → `okf/changes/` + a `okf/log.md` line (plus `okf/decisions/` when direction changes), reversible. (`docs/ARCHITECTURE_CHANGELOG.md` is the retired, migrated predecessor — a redirect stub.)
 - One concept, one file; reference by ID everywhere else.
 - Counters derived, never stored twice. Review state lives in QUEUE.md only.
 - No fabricated data: examples are marked synthetic; metrics reflect logged work only.
